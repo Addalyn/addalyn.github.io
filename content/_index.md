@@ -3,4 +3,4 @@ archetype = "home"
 title = ""
 +++
 
-This is a new home page.
+Wiki page for Atlas Reactor
