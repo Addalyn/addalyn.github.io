@@ -1,0 +1,51 @@
+baseurl = ""
+contentdir    = "content"
+layoutdir     = "layouts"
+publishdir    = "public"
+title = "evos.live"
+canonifyurls  = true
+enableRobotsTXT=true
+
+DefaultContentLanguage = "en"
+theme = "hugo-theme-relearn"
+
+enableGitInfo = true
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+pygmentCodeFences = true
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+#####################################
+#Allows for using html in markdown to do colored text etc.
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    endLevel = 3
+    startLevel = 1
+#####################################
+
+[Params]
+  subtitle = "Wiki containing info from things at evos.live"
+  logo = "img/avatar-icon.png"
+  favicon = "assets/images/favicon.png"
+  commit = true
+  rss = true
+  comments = true
+  disableNextPrev = true
+  ordersectionsby = "weight"
+  themeVariant = "mine"
+  editURL = "https://github.com/Addalyn/addalyn.github.io/tree/site/content/"
+  disableLandingPageButton = true
+  titleSeparator = "|"
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[[menu.main]]
+    name = "Wiki"
+    url = "wiki/"
+    weight = 1
