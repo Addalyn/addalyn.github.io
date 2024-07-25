@@ -1,0 +1,14 @@
+<div style="width: 100%; background-color: #eee; border-radius: 5px; overflow: hidden; position: relative; height: 20px; margin-bottom: 10px;">
+    <div style="
+        height: 100%; 
+        line-height: 20px; 
+        color: white; 
+        text-align: center; 
+        position: absolute; 
+        width: {{ .Get "percentage" }}%; 
+        background-color: {{ .Get "color" }};
+        transition: width 0.3s ease;
+        ">
+        {{ .Get "value" }}
+    </div>
+</div>

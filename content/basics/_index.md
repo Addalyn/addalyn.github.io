@@ -1,7 +1,7 @@
 +++
 archetype = "chapter"
 title = "Basics"
-weight = 1
+weight = 2
 +++
 
-This is a new chapter.
+This is a new chapter. {{% badge %}}Important{{% /badge %}}
