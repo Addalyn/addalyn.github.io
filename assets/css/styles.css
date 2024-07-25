@@ -1,0 +1,30 @@
+.stat-bar {
+  width: 100%;
+  background-color: #eee;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.stat-bar-inner {
+  height: 100%;
+  line-height: 20px;
+  color: white;
+  text-align: center;
+  transition: width 0.3s ease;
+}
+
+.health-bar {
+  background-color: green;
+}
+.damage-bar {
+  background-color: red;
+}
+.survival-bar {
+  background-color: blue;
+}
+.difficulty-bar {
+  background-color: orange;
+}
