@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "https://wiki.evos.live/"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
@@ -37,7 +37,7 @@ pygmentCodeFences = true
   disableNextPrev = true
   ordersectionsby = "weight"
   themeVariant = "mine"
-  editURL = "https://github.com/Addalyn/addalyn.github.io/tree/site/content/"
+  editURL = "https://github.com/Addalyn/addalyn.github.io/tree/main/content/"
   disableLandingPageButton = true
   titleSeparator = "|"
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
