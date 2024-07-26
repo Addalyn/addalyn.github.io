@@ -1,0 +1,23 @@
+{{- $baseName := .Get 0 -}} {{- $width := .Get 1 | default "80px" -}} {{-
+$folder := .Get 2 | default "" -}} {{- $imagePath := printf
+"/images/%s-Game_Portrait.webp" $baseName -}} {{- $linkPath := printf "/%s%s" (
+$folder | lower ) $baseName | lower -}}
+
+<div
+  style="
+    border: 2px solid #8b8a86;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 10px;
+  "
+>
+  <div style="background-color: rgba(0, 0, 0, 0.5); border: 2px solid black">
+    <a href="{{ $linkPath }}" rel="noopener noreferrer">
+      <img
+        src="{{ $imagePath }}"
+        alt="{{ $baseName }}"
+        style="width:{{ $width }}; height:{{ $width }}; display: block; margin: auto;"
+      />
+    </a>
+  </div>
+</div>

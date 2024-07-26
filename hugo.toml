@@ -26,7 +26,9 @@ pygmentCodeFences = true
     endLevel = 3
     startLevel = 1
 #####################################
-
+[module]
+  [[module.imports]]
+    path = 'github.com/hugomods/images'
 [Params]
   subtitle = "Wiki containing info from things at evos.live"
   logo = "img/avatar-icon.png"

@@ -1,0 +1,4 @@
+{{ $file := .Get 0 }} {{ $content := (printf "%s%s" .Page.File.Dir $file) |
+readFile }} {{ $cleanedContent := replaceRE "^---[\\s\\S]+?---" "" $content }}
+{{ $cleanedContent = replaceRE "^\\+\\+\\+[\\s\\S]+?\\+\\+\\+" ""
+$cleanedContent }} {{ $cleanedContent | markdownify }}
