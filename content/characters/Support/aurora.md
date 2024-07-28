@@ -24,7 +24,7 @@ title = "Aurora"
 - **Phase:** Blast
 - **Cooldown:** 0
 - **Free:** No
-- **Description:** Project a stream of energy, dealing 20 direct damage to enemies and restoring 10 health to allies.<br><br>**Shards:** Gain 5 energy per enemy hit and 3 energy per ally hit.
+- **Description:** Project a stream of energy, dealing 20 direct damage to enemies and restoring 10 health to allies.<br><br>
 - **Energy Gained:** Gain 5 energy per enemy hit and 3 energy per ally hit.
 - **Target Type:** Free aim
 - **Target Range:** 7
@@ -35,7 +35,7 @@ title = "Aurora"
 | Up the Voltage   | Increases damage by 3              | 2        | Damage Up |
 | Vain             | Heal yourself for 4 as well.       | 2        | Special   |
 | Group Therapy    | Increases ally healing by 4.       | 3        | Heal      |
-| **Default Mod:** | Group Therapy                      |          |           |
+| **Default Mod:** | Vain                               |          |           |
 
 ---
 
@@ -44,8 +44,8 @@ title = "Aurora"
 - **Phase:** Blast
 - **Cooldown:** 3
 - **Free:** No
-- **Description:** Create an entropic cloud that deals 20 direct damage when cast and lasts 2 turns. Enemies moving through or starting their turn in the cloud take 20 additional indirect damage. Allies within or moving through the cloud heal for 4 health.<br><br>**Shards:** Gain 8 energy per enemy hit.
-- **Energy Gained:** Gain 8 energy per enemy hit.
+- **Description:** Create an entropic cloud that deals 20 direct damage when cast and lasts 2 turns. Enemies moving through or starting their turn in the cloud take 20 additional indirect damage. Allies within or moving through the cloud heal for 4 health.<br><br>
+- **Energy Gained:** Gain 5 energy per enemy hit and 3 energy per ally hit.
 - **Target Type:** Grid
 - **Target Range:** 7
 - **Area of Effect:** 3x3
@@ -65,7 +65,7 @@ title = "Aurora"
 - **Phase:** Prep
 - **Cooldown:** 3
 - **Free:** No
-- **Description:** Restore 30 health to yourself or an ally. Knockback enemies next to the target during the Blast Phase.<br><br>**Shards:** Gain 12 energy.
+- **Description:** Restore 30 health to yourself or an ally. Knockback enemies next to the target during the Blast Phase.<br><br>
 - **Energy Gained:** Gain 12 energy.
 - **Target Type:** Self/ally
 - **Target Range:** 8
@@ -76,7 +76,7 @@ title = "Aurora"
 | Seeking Flare    | Can be targeted through walls.                                     | 2        | Target Increase |
 | Flareburst       | Enemies hit by the flare take 15 indirect damage.                  | 3        | Damage Up       |
 | Surging Flare    | Restores an additional 8 health if the target is under 50% health. | 3        | Heal            |
-| **Default Mod:** | Surging Flare                                                      |          |                 |
+| **Default Mod:** | Seeking Flare                                                      |          |                 |
 
 ---
 
@@ -85,7 +85,7 @@ title = "Aurora"
 - **Phase:** Prep
 - **Cooldown:** 5
 - **Free:** No
-- **Description:** Unleash a surge of energy making enemies Weak and granting 10 shields to herself and allies for the turn.<br><br>**Shards:** Gain 5 energy per enemy hit and 3 energy per ally hit.
+- **Description:** Unleash a surge of energy making enemies Weak and granting 10 shields to herself and allies for the turn.<br><br>
 - **Energy Gained:** Gain 5 energy per enemy hit and 3 energy per ally hit.
 - **Target Type:** Free aim
 - **Target Range:** 5
@@ -97,7 +97,8 @@ title = "Aurora"
 | Rapid Paralysis  | This ability's cooldown is reduced by 1 for each target hit, up to 3 max. | 2        | Cooldown    |
 | Surge of Might   | Aurora and targeted allies gain Might for the turn.                       | 3        | Good Status |
 | Tenacious        | Aurora and targeted allies become Unstoppable for the turn.               | 3        | Good Status |
-| **Default Mod:** | Tenacious                                                                 |          |             |
+| Pluse Beam       | Now a free action. No longer applies shields to allies.                   | 2        | Special     |
+| **Default Mod:** | Gravity Well                                                              |          |             |
 
 ---
 
@@ -105,7 +106,7 @@ title = "Aurora"
 
 - **Phase:** Blast
 - **Energy Cost:** 100
-- **Description:** Project powerful beams in four directions, enemies take 24 direct damage while Aurora and her allies gain 24 health. Can shoot through walls and ignores Cover.<br><br>**Shards:** Slows enemies for the turn and Hastens allies until the end of the next turn.
+- **Description:** Project powerful beams in four directions, enemies take 24 direct damage while Aurora and her allies gain 24 health. Can shoot through walls and ignores Cover.<br><br>
 - **Free:** No
 - **Target Type:** Free aim
 - **Target Range:** 7
@@ -116,7 +117,8 @@ title = "Aurora"
 | Focused Radiance | Each beam that only hits one target, friendly or enemy, increases in potency by 6. | 2        | Damage Up   |
 | Supernova        | Increases the number of beams to 8. Decreases their potency by 4.                  | 2        | Effect Size |
 | Sudden Jolt      | On use, reduces all active cooldowns by 1.                                         | 3        | Cooldown    |
-| **Default Mod:** | Sudden Jolt                                                                        |          |             |
+| Wave of Light    | Knockback all adjacent enemies.                                                    | 1        | Bad Status  |
+| **Default Mod:** | Focused Radianc                                                                    |          |             |
 
 ## Dossier
 
