@@ -86,7 +86,7 @@ title = "Aurora"
 - **Cooldown:** 5
 - **Free:** No
 - **Description:** Unleash a surge of energy making enemies Weak and granting 10 shields to herself and allies for the turn.<br><br>
-- **Energy Gained:** Gain 5 energy per enemy hit and 3 energy per ally hit.
+- **Energy Gained:** Gain 3 energy on use. Gain 5 energy per enemy hit and 3 energy per ally hit.
 - **Target Type:** Free aim
 - **Target Range:** 5
 
