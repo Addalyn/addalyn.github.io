@@ -32,9 +32,9 @@ title = "Orion"
 
 | **Mod Name**         | **Description**                                    | **Cost** | **Type**    |
 | -------------------- | -------------------------------------------------- | -------- | ----------- |
-| Focused Flames       | Deal 5 additional damage if only one enemy is hit. | 1        | Damage Up   |
+| Focused Flames       | Deal 3 additional damage if only one enemy is hit. | 1        | Damage Up   |
 | Amplified Eruption   | Deal 1 additional damage per shard.                | 2        | Damage Up   |
-| Devour Energy        | Gain 5 energy for each enemy hit.                  | 3        | Energy      |
+| Devour Energy        | Gain 3 energy for each enemy hit.                  | 2        | Energy      |
 | Empyreal Destruction | The base radius is increased by 20%.               | 3        | Effect Size |
 | **Default Mod:**     | Amplified Eruption                                 |          |             |
 
@@ -45,8 +45,8 @@ title = "Orion"
 - **Phase:** Prep
 - **Cooldown:** 3
 - **Free:** No
-- **Description:** Grant yourself 15 shields, then redirect 75% of the damage the ally takes this turn. All of the damage taken from this ability converts directly into energy.<br><br>**Shards:** You gain additional 3 shields per shard.
-- **Energy Gained:** None
+- **Description:** Grant yourself 15 shields, then redirect 75% of the damage the ally takes this turn. 75% of the damage taken from this ability converts directly into energy.<br><br>**Shards:** You gain additional 3 shields per shard.
+- **Energy Gained:** None  
 - **Target Type:** Grid
 - **Target Range:** 1
 
@@ -57,7 +57,7 @@ title = "Orion"
 | Rebuild          | Next turn heal 20% of damage redirected through Fate Transfer.              | 2        | Heal        |
 | Divine Purpose   | Both you and your target become unstoppable for the turn.                   | 3        | Good Status |
 | Energy Leech     | Gain an additional 25% energy from damage redirected through Fate Transfer. | 3        | Energy      |
-| **Default Mod:** | Energy Leech                                                                |          |             |
+| **Default Mod:** | Rebuild                                                                     |          |             |
 
 ---
 
@@ -71,14 +71,14 @@ title = "Orion"
 - **Target Type:** Grid
 - **Target Range:** 1
 
-| **Mod Name**        | **Description**                                                  | **Cost** | **Type**  |
-| ------------------- | ---------------------------------------------------------------- | -------- | --------- |
-| Punish the cowardly | If Quantum Core is not triggered, reduce the cooldown by 1 turn. | 1        | Cooldown  |
-| Benevolent          | Target gains 2 shields per shard.                                | 2        | Shield Up |
-| Pain and Gain       | Gain 5 energy per enemy hit.                                     | 2        | Energy    |
-| Vengeful            | Deal 2 additional damage per shard.                              | 2        | Damage Up |
-| Bow Down            | Slow enemies hit until end of turn.                              | 3        | Special   |
-| **Default Mod:**    | Pain and Gain                                                    |          |           |
+| **Mod Name**        | **Description**                                                  | **Cost** | **Type**   |
+| ------------------- | ---------------------------------------------------------------- | -------- | ---------- |
+| Punish the cowardly | If Quantum Core is not triggered, reduce the cooldown by 1 turn. | 1        | Cooldown   |
+| Benevolent          | Target gains 2 shields per shard.                                | 2        | Shield Up  |
+| Pain and Gain       | Gain 5 energy per enemy hit.                                     | 2        | Energy     |
+| Vengeful            | Deal 2 additional damage per shard.                              | 2        | Damage Up  |
+| Bow Down            | Slow enemies hit until end of turn.                              | 3        | Bad Status |
+| **Default Mod:**    | Benevolent                                                       |          |            |
 
 ---
 
