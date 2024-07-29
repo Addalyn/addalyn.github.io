@@ -53,10 +53,10 @@ title = "Elle"
 
 | **Mod Name**   | **Description**                                            | **Cost** | **Type**    |
 | -------------- | ---------------------------------------------------------- | -------- | ----------- |
-| Close Call     | Gain 5 shields until the end of this turn.                 | 1      | Shield Up     |
-| Dance of Death | Gain a third charge of **Combat Reflexes**.                | 3      | Special       |
-| Follow Through | Gain **haste** until end of next turn.                     | 2      | Good Status   |
-| Action Roll    | Can now dash up to **2** spaces but no longer has charges. | 2      | Range Up      |
+| Close Call     | Gain 5 shields until the end of this turn.                 | 1        | Shield Up   |
+| Dance of Death | Gain a third charge of **Combat Reflexes**.                | 3        | Special     |
+| Follow Through | Gain **haste** until end of next turn.                     | 2        | Good Status |
+| Action Roll    | Can now dash up to **2** spaces but no longer has charges. | 2        | Range Up    |
 
 **Default Mod:** Follow Through
 
