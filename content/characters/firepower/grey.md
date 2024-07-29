@@ -36,7 +36,7 @@ title = "Grey"
 | Hunt Them Down     | Deal 3 additional damage if the target is tracked.                                         | 2        | Damage Up       |
 | Catch the Scent    | Hitting a target with Tracer Bolt reduces the cooldown of Hawk Drone by 1.                 | 3        | Cooldown        |
 
-**Default Mod:** Catch the Scent
+**Default Mod:** Hunt Them Down
 
 ---
 
@@ -72,12 +72,13 @@ title = "Grey"
 - **Target Type:** Free aim
 - **Target Range:** 7
 
-| **Mod Name**     | **Description**                                                                | **Cost** | **Type**        |
-| ---------------- | ------------------------------------------------------------------------------ | -------- | --------------- |
-| Energy Feed      | Gain 3 additional energy on hit.                                               | 1        | Energy          |
-| Overdose         | Enemies are also slowed.                                                       | 2        | Bad Status      |
-| Adrenal Overload | Can now hit allies, granting might and unstoppable until end of turn.          | 3        | Good Status     |
-| Double Dart      | Adds an additional dart. Reduces energy gain by 3 per dart and the range by 1. | 3        | Target Increase |
+| **Mod Name**      | **Description**                                                                | **Cost** | **Type**        |
+| ----------------- | ------------------------------------------------------------------------------ | -------- | --------------- |
+| Energy Feed       | Gain 3 additional energy on hit.                                               | 1        | Energy          |
+| Overdose          | Enemies are also slowed.                                                       | 2        | Bad Status      |
+| Impaired Judgment | Enemies hit cannot collect power-ups until the end of next turn.               | 2        | Bad Status      |
+| Adrenal Overload  | Can now hit allies, granting might and unstoppable until end of turn.          | 3        | Good Status     |
+| Double Dart       | Adds an additional dart. Reduces energy gain by 3 per dart and the range by 1. | 3        | Target Increase |
 
 **Default Mod:** Overdose
 
