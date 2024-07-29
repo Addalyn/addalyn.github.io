@@ -74,7 +74,7 @@ title = "Celeste"
 | Smoke Machine         | Lasts an additional turn.                                    | 2        | Special         |
 | Fog Cover             | Throw an additional smoke bomb. Reduce damage done by 5.     | 3        | Target Increase |
 
-**Default Mod:** Fog Cover
+**Default Mod:** Smoke Machine
 
 ### Ability 4: On the Run
 
@@ -111,7 +111,7 @@ title = "Celeste"
 | Second Story Job    | Increase the range of Safecracker by 1.            | 2        | Effect Size     |
 | Assault and Battery | Cover damage reduction is halved.                  | 3        | Damage Up       |
 
-**Default Mod:** Assault and Battery
+**Default Mod:** Second Story Job
 
 ## Dossier
 
