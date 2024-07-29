@@ -34,26 +34,28 @@ title = "Blackburn"
 | Elite Commando  | Firing in single target mode increases damage of the next cone usage of Equalizer by **4 damage** and vice versa. | 3        | Damage Up |
 | Breach          | Deal an additional **2 damage** while in cover next to a wall.                                                    | 2        | Damage Up |
 | Prediction Shot | Deal an additional **6 damage** to enemies that have used a dash ability this turn.                               | 2        | Damage Up |
+| Close Quarters  | Deal an additional **6 damage** to enemies within **2 spaces**.                        .                          | 2        | Damage Up |
 | Capacitor Clip  | Gain an additional **3 energy** for single target and **1 energy** per cone target hit.                           | 1        | Energy    |
 
-**Default Mod:** Elite Commando
+**Default Mod:** Breach
 
 ### Ability 2: Proteus Grenade
 
 - **Phase:** Blast
 - **Cooldown:** 3
-- **Description:** Throw a grenade dealing **25 damage** direct damage. Can be thrown over walls.
+- **Description:** Throw a grenade dealing **27 damage** direct damage. Can be thrown over walls.
 - **Energy Gained:** Gain **8 energy** per enemy hit.
 - **Target Type:** Grid
 - **Target Range:** 6
 - **Area of Effect:** 3x3
 
-| **Mod Name**     | **Description**                                            | **Cost** | **Type**   |
-| ---------------- | ---------------------------------------------------------- | -------- | ---------- |
-| Phospho Canister | Reveal enemies hit until end of next Decision Mode.        | 1        | Bad Status |
-| Field Medic      | Heal allies hit for **10 health**.                         | 2        | Heal       |
-| Nova Nade        | Deal an additional **8 damage** to the center location.    | 2        | Damage Up  |
-| Frag Out         | Reduces the cooldown of Proteus Grenade by **1 cooldown**. | 3        | Cooldown   |
+| **Mod Name**      | **Description**                                            | **Cost** | **Type**        |
+| ----------------- | ---------------------------------------------------------- | -------- | --------------- |
+| Phospho Canister  | Reveal enemies hit until end of next Decision Mode.        | 1        | Bad Status      |
+| Field Medic       | Heal allies hit for **10 health**.                         | 2        | Heal            |
+| Nova Nade         | Deal an additional **6 damage** to the center location.    | 2        | Damage Up       |
+| Frag Out          | Reduces the cooldown of Proteus Grenade by **1 cooldown**. | 3        | Cooldown        |
+| Collateral Damage | Area of effect increased.                                  | 3        | Target Increase |
 
 **Default Mod:** Nova Nade
 
@@ -107,7 +109,7 @@ title = "Blackburn"
 | Penetrating Blast  | Cover damage reduction is halved.                                                                                          | 1        | Damage Up       |
 | Death From Above   | The airship attacks the same location again next turn, dealing **20 indirect damage**.                                     | 2        | Special         |
 | Aerial Bombardment | Call in a second airship, dealing damage in a line perpendicular to the original bombardment. Damage is reduced to **35**. | 3        | Target Increase |
-| Massive Payload    | Increase the width of the attack by **1 gold**.                                                                            | 3        | Target Increase |
+| Massive Payload    | Increase the width of the attack by **1**.                                                                                 | 3        | Target Increase |
 
 **Default Mod:** Death From Above
 
