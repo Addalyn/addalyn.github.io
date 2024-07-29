@@ -27,7 +27,7 @@ title = "Juno"
 - **Description:** Fire a barrage of lasers from each cannon. Targets take 24 direct damage, or 32 if hit by both laser barrages.
 - **Energy Gained:** Gain 6 energy per enemy hit.
 - **Target Type:** Free aim
-- **Target Range:** 7
+- **Target Range:** 7.5
 - **Area of Effect:** Cone
 
 | **Mod Name**      | **Description**                                                                      | **Cost** | **Type**    |
@@ -49,7 +49,7 @@ title = "Juno"
 - **Description:** Tether a target to their current position for the turn; if they move further than 2 spaces away, they take 30 indirect damage.
 - **Energy Gained:** Gain 12 energy if damage is dealt.
 - **Target Type:** Grid
-- **Target Range:** 1
+- **Target Range:** 7
 
 | **Mod Name**     | **Description**                                                    | **Cost** | **Type**   |
 | ---------------- | ------------------------------------------------------------------ | -------- | ---------- |
@@ -71,7 +71,7 @@ title = "Juno"
 - **Description:** Create a shockwave dealing 25 direct damage. Knockback enemies hit by up to 2 squares.
 - **Energy Gained:** Gain 8 energy per enemy hit.
 - **Target Type:** Free aim
-- **Target Range:** 7
+- **Target Range:** 4
 - **Area of Effect:** Cone
 
 | **Mod Name** | **Description**                                     | **Cost** | **Type**    |
