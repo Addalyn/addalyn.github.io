@@ -8,7 +8,7 @@ title = "Gremolitions Inc."
 | **Role**          | Firepower |
 | ----------------- | --------- |
 | **Affiliation**   | Evos      |
-| **Actual Health** | 120       |
+| **Actual Health** | 130       |
 
 | **Stat**   | **Value**                                                 |
 | ---------- | --------------------------------------------------------- |
@@ -32,9 +32,10 @@ title = "Gremolitions Inc."
 | **Mod Name** | **Description**                                                        | **Cost** | **Type**        |
 | ------------ | ---------------------------------------------------------------------- | -------- | --------------- |
 | No Downsides | No longer has a minimum range.                                         | 1        | Range Up        |
-| Cannoneer    | Increase the arc width for the second bomb.                            | 2        | Target Increase |
+| Cannoneer    | Increase the arc width for the second bomb.                            | 2        | Range Up        |
 | KABOOM Boom  | The first bomb fired deals an additional 4 damage if it hits an enemy. | 2        | Damage Up       |
 | Mighty Mines | Increases damage of mines by 3.                                        | 3        | Damage Up       |
+| Triple Fun   | Increases the number of mines to 3. Direct damage reduced by 5.        | 3        | Target Increase |
 
 **Default Mod:** Cannoneer
 
@@ -52,12 +53,14 @@ title = "Gremolitions Inc."
 
 | **Mod Name**  | **Description**                                                        | **Cost** | **Type**    |
 | ------------- | ---------------------------------------------------------------------- | -------- | ----------- |
-| Bomb and Run  | Gain Haste until the end of the next turn.                             | 1        | Good Status |
+| Bomb and Run  | Gain **haste** until the end of the next turn.                         | 1        | Good Status |
 | Energy Bank   | Mines give 2 more energy.                                              | 2        | Energy      |
-| Long Fuse     | Mines persist for 1 additional turn.                                   | 2        | Special     |
+| Long Fuse     | Mines persist for 1 additional turn.                                   | 1        | Special     |
 | Phospho Mines | Enemies hit by mines are Revealed until the end of next Decision Mode. | 3        | Bad Status  |
+| Longer Fuse   | Mines persist for 2 additional turn.                                   | 2        | Special     |
+| Longest Fuse  | Mines persist for 3 additional turn.                                   | 3        | Special     |
 
-**Default Mod:** Phospho Mines
+**Default Mod:** Long Fuse
 
 ---
 
@@ -72,14 +75,15 @@ title = "Gremolitions Inc."
 - **Target Range:** 3-7
 - **Area of Effect:** 3x3
 
-| **Mod Name**       | **Description**                                                                                   | **Cost** | **Type**        |
-| ------------------ | ------------------------------------------------------------------------------------------------- | -------- | --------------- |
-| Bigger Bang        | Increase the size of the explosion. Minimum range is increased by 1.                              | 1        | Target Increase |
-| Party Crasher      | Deals 5 more damage for each target hit beyond the first.                                         | 2        | Damage Up       |
-| Got Yer Name On It | If only one target is hit they take 5 additional damage and are knocked back 2 additional spaces. | 3        | Damage Up       |
-| Blast Force        | Knockback distance is increased by 2.                                                             | 2        | Special         |
+| **Mod Name**       | **Description**                                                                                         | **Cost** | **Type**        |
+| ------------------ | ------------------------------------------------------------------------------------------------------- | -------- | --------------- |
+| Bigger Bang        | Increase the size of the explosion. Minimum range is increased by 1.                                    | 1        | Target Increase |
+| Party Crasher      | Deals 5 more damage for each target hit beyond the first.                                               | 2        | Damage Up       |
+| Got Yer Name On It | If only one target is hit they take 5 additional damage and are knocked back 2 additional spaces.       | 3        | Damage Up       |
+| Blast Force        | Knockback distance is increased by 2.                                                                   | 2        | Special         |
+| Recursive Feedback | Deals 5 more damage for each target hit beyond the first. Gain 3 additional energy for each target hit. | 3        | Special         |
 
-**Default Mod:** Got Yer Name On It
+**Default Mod:** Blast Force
 
 ---
 
@@ -94,12 +98,12 @@ title = "Gremolitions Inc."
 - **Target Range:** Two sequenced dashes with possible locations placed on a perimeter of a 7x7 square centered around current position.
 - **Area of Effect:** 3x3
 
-| **Mod Name**        | **Description**                                 | **Cost** | **Type** |
-| ------------------- | ----------------------------------------------- | -------- | -------- |
-| Left You a Present  | Leave a mine at each location.                  | 1        | Special  |
-| Extra Fuel          | Increase the maximum range of each jump by 1.   | 2        | Range Up |
-| Splortagain         | Resets the cooldown of Splort!                  | 2        | Cooldown |
-| Explosive Aftermath | Reduce the remaining cooldown of Big Bang by 3. | 3        | Cooldown |
+| **Mod Name**        | **Description**                                     | **Cost** | **Type** |
+| ------------------- | --------------------------------------------------- | -------- | -------- |
+| Left You a Present  | Leave a mine at each location.                      | 1        | Special  |
+| Extra Fuel          | Increase the maximum range of each jump by 1.       | 2        | Range Up |
+| Splortagain         | Resets the cooldown of **Splort!**                  | 2        | Cooldown |
+| Explosive Aftermath | Reduce the remaining cooldown of **Big Bang** by 3. | 3        | Cooldown |
 
 **Default Mod:** Extra Fuel
 
