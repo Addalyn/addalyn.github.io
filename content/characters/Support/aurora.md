@@ -56,7 +56,7 @@ title = "Aurora"
 | Stable Ions        | Increases duration by 1 turn.                                                              | 3        | Effect Size |
 | Overcast           | Reduce the cooldown by 1 turn.                                                             | 2        | Special     |
 | Invigorating Cloud | Restores an additional 2 health to allies in the cloud for every turn the cloud is active. | 2        | Heal        |
-| **Default Mod:**   | Invigorating Cloud                                                                         |          |             |
+| **Default Mod:**   | Overcast                                                                                   |          |             |
 
 ---
 
