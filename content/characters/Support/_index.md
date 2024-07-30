@@ -15,3 +15,19 @@ weight = 1
 Support Freelancers use healing, shielding, and damage-mitigating abilities to keep their teammates alive. Often, supports will provide buffs for their teammates and debuffs for the enemy team. On their own, they can still deal a decent amount of damage but generally do less damage than other roles due to the fact that they are assisting their teammates.
 
 There are currently 8 Support Freelancers
+
+{{< freelancer-thumbnail "Aurora" "80" "characters/support/" >}}
+
+{{< freelancer-thumbnail "Dr._Finn" "80" "characters/support/" >}}
+
+{{< freelancer-thumbnail "Helio" "80" "characters/support/" >}}
+
+{{< freelancer-thumbnail "Khita" "80" "characters/support/" >}}
+
+{{< freelancer-thumbnail "Meridian" "80" "characters/support/" >}}
+
+{{< freelancer-thumbnail "Orion" "80" "characters/support/" >}}
+
+{{< freelancer-thumbnail "Quark" "80" "characters/support/" >}}
+
+{{< freelancer-thumbnail "Su-Ren" "80" "characters/support/" >}}
