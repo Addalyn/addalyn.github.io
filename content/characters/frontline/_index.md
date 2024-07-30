@@ -12,7 +12,7 @@ weight = 1
   </div>
 </div>
 
-Frontline Freelancers can have abilities that attack from range but their primary ability is often close range. They often have abilities to hinder enemy movement via knockbacks or by applying effects like [Slow](#) and [Rooted](#).
+Frontline Freelancers can have abilities that attack from range but their primary ability is often close range. They often have abilities to hinder enemy movement via knockbacks or by applying effects like Slow and Rooted.
 
 They are most known for being bullies, pushing their large health pools into the middle of enemy formations and trying to cause disruption. This is usually easy to accomplish because all of them have a dash ability that deals damage. Not only do they have larger health pools but it is very common for them to have some form of damage mitigation in the form of healing or shields, making them even harder to kill and more of a nuisance.
 

@@ -4,10 +4,10 @@ title = "Support"
 weight = 1
 +++
 
-<div style="float:right; margin-left:20px; width:200px; height:386px; box-shadow:0 7px 14px -6px rgba(0, 0, 0, 0.75); overflow:hidden;">
+<div style="overflow:hidden;float:right;margin-left:20px;width:200px;height:386px;box-shadow:0 7px 14px -6px rgba(0, 0, 0, 0.75)">
   <img src="/images/Role-Support-DescriptionBackground.webp" alt="Role-Support Background" style="width:100%; height:auto;">
   <div style="position:relative; bottom:175px; margin:5px; text-align:center;">
-    <strong>Support</strong><br />
+    <strong>SUPPORT</strong><br />
     Specialists who can heal or prevent damage to keep their allies fighting strong.
   </div>
 </div>
