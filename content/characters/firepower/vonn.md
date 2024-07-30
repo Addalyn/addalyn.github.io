@@ -24,18 +24,18 @@ title = "Vonn"
 - **Phase:** Blast
 - **Cooldown:** None
 - **Free:** No
-- **Description:** Launch an icy spike, dealing 30 direct damage and afflicting your target with a **Cryo Core**. **Cryo Core** lasts one turn and is detonated by direct damage to the target, dealing 7 indirect damage to the target and adjacent enemies. Detonated **Cryo Core** grants 2 energy.
-- **Energy Gained:** Gain 10 energy if you hit an enemy.
+- **Description:** Launch an icy spike, dealing **30** direct damage and afflicting your target with a **Cryo Core**. **Cryo Core** lasts one turn and is detonated by direct damage to the target, dealing **7** indirect damage to the target and adjacent enemies. Detonated **Cryo Core** grants **2** energy.
+- **Energy Gained:** Gain **10** energy if you hit an enemy.
 - **Target Type:** Free aim
 - **Target Range:** 7
 
-| **Mod Name**  | **Description**                                                                                        | **Cost** | **Type**    |
-| ------------- | ------------------------------------------------------------------------------------------------------ | -------- | ----------- |
-| Heat Sink     | Gain an additional 3 energy if you hit an enemy that started the turn with a **Cryo Core**.            | 1        | Energy      |
-| Rangefinder   | Gain 0.5 additional range.                                                                             | 2        | Range Up    |
-| Piercing Cold | **Pierce** the first enemy hit. If another enemy is hit, it gains a **Cryo Core** but takes no damage. | 2        | Effect Size |
-| ColdHearted   | Deal an additional 3 damage if you hit an enemy that started the turn with **Cryo Core**.              | 3        | Damage Up   |
-| Ice Flow      | Gain **Haste** next turn.                                                                              | 3        | Good Status |
+| **Mod Name**  | **Description**                                                                                    | **Cost** | **Type**    |
+| ------------- | -------------------------------------------------------------------------------------------------- | -------- | ----------- |
+| Heat Sink     | Gain an additional **3** energy if you hit an enemy that started the turn with a **Cryo Core**.    | 1        | Energy      |
+| Rangefinder   | Gain **0.5** additional range.                                                                     | 2        | Range Up    |
+| Piercing Cold | Pierce the first enemy hit. If another enemy is hit, it gains a **Cryo Core** but takes no damage. | 2        | Effect Size |
+| ColdHearted   | Deal an additional **3** damage if you hit an enemy that started the turn with **Cryo Core**.      | 3        | Damage Up   |
+| Ice Flow      | Gain **Haste** next turn.                                                                          | 3        | Good Status |
 
 **Default Mod:** Rangefinder
 
@@ -46,20 +46,21 @@ title = "Vonn"
 - **Phase:** Prep
 - **Cooldown:** 2
 - **Free:** Yes
-- **Description:** Grant a freezing aura to Vonn or an ally. If the target is hit with direct damage, the enemy that attacked them takes 5 indirect damage and is afflicted with a **Cryo Core**.
-- **Energy Gained:** Gain 3 energy per enemy hit.
+- **Description:** Grant a freezing aura to Vonn or an ally. If the target is hit with direct damage, the enemy that attacked them takes **5** indirect damage and is afflicted with a **Cryo Core**.
+- **Energy Gained:** Gain **3** energy per enemy hit.
 - **Target Type:** Grid
-- **Target Range:** 1
+- **Target Range:** 8
 
-| **Mod Name**         | **Description**                                                                             | **Cost** | **Type**        |
-| -------------------- | ------------------------------------------------------------------------------------------- | -------- | --------------- |
-| Lingering Chill      | If not triggered by an enemy, the aura lasts an additional turn.                            | 1        | Target Increase |
-| Thermodynamo         | Gain 2 additional energy per **Cryo Core** detonated.                                       | 2        | Energy          |
-| Heat Seeking         | Can be targeted through walls.                                                              | 2        | Range Up        |
-| Ice-X                | Grants the **Cold Snap** aura to both Vonn and target Ally, but cooldown is increased by 1. | 3        | Effect Size     |
-| Zero Point Generator | The target gains 3 energy each time the effect triggers.                                    | 3        | Energy          |
+| **Mod Name**         | **Description**                                                                                 | **Cost** | **Type**    |
+| -------------------- | ----------------------------------------------------------------------------------------------- | -------- | ----------- |
+| Lingering Chill      | If not triggered by an enemy, the aura lasts **1** additional turn.                             | 1        | Duration    |
+| Thermodynamo         | Gain **2** additional energy per **Cryo Core** detonated.                                       | 2        | Energy      |
+| Heat Seeking         | Can be targeted through walls.                                                                  | 2        | Range Up    |
+| Ice-X                | Grants the **Cold Snap** aura to both Vonn and target Ally, but cooldown is increased by **1**. | 3        | Effect Size |
+| Zero Point Generator | The target gains **3** energy each time the effect triggers.                                    | 3        | Energy      |
+| Rimescale            | Target also gains **8** shields.                                                                | 2        | Shield      |
 
-**Default Mod:** Zero Point Generator
+**Default Mod:** Heat Seeking
 
 ---
 
@@ -68,20 +69,20 @@ title = "Vonn"
 - **Phase:** Blast
 - **Cooldown:** 3
 - **Free:** No
-- **Description:** Fire a gale of ice shards, dealing 25 direct damage and **slowing** enemies.
-- **Energy Gained:** Gain 6 energy per target hit.
+- **Description:** Fire a gale of ice shards, dealing **25** direct damage and **Slowing** enemies.
+- **Energy Gained:** Gain **6** energy per target hit.
 - **Target Type:** Free aim
 - **Target Range:** 7
 
-| **Mod Name** | **Description**                                                                        | **Cost** | **Type**    |
-| ------------ | -------------------------------------------------------------------------------------- | -------- | ----------- |
-| Storm Surge  | Gain an additional 3 energy per target hit.                                            | 1        | Energy      |
-| Storm Force  | Deal up to 5 more damage to enemies the nearer they are to the center of the targeter. | 2        | Damage Up   |
-| North Wind   | Increase arc by 30 degrees.                                                            | 2        | Effect Size |
-| Unrelenting  | Cooldown reduced by 1 for each enemy hit that started the turn with a **Cryo Core**.   | 3        | Cooldown    |
-| Biting Winds | Reduce cover mitigation by half.                                                       | 3        | Damage Up   |
+| **Mod Name** | **Description**                                                                            | **Cost** | **Type**    |
+| ------------ | ------------------------------------------------------------------------------------------ | -------- | ----------- |
+| Storm Surge  | Gain an additional **3** energy per target hit.                                            | 1        | Energy      |
+| Storm Force  | Deal up to **5** more damage to enemies the nearer they are to the center of the targeter. | 2        | Damage Up   |
+| North Wind   | Increase arc by **30** degrees.                                                            | 2        | Effect Size |
+| Unrelenting  | Cooldown reduced by **1** for each enemy hit that started the turn with a **Cryo Core**.   | 3        | Cooldown    |
+| Biting Winds | Reduce cover mitigation by half.                                                           | 3        | Damage Up   |
 
-**Default Mod:** Unrelenting
+**Default Mod:** North Wind
 
 ---
 
@@ -90,19 +91,20 @@ title = "Vonn"
 - **Phase:** Prep
 - **Cooldown:** 4
 - **Free:** No
-- **Description:** Create an icy shell that grants 60 shields and **slows** nearby enemies. The shields last until end of next turn. This ability allows full movement.
-- **Energy Gained:** Gain 5 energy on use.
+- **Description:** Create an icy shell that grants **60** shields and **Slows** nearby enemies. The shields last until end of next turn. This ability allows full movement.
+- **Energy Gained:** Gain **5** energy on use.
 - **Target Type:** Self
+- **Area of Effect:** Radius of **2**
 
-| **Mod Name**  | **Description**                                                                            | **Cost** | **Type**    |
-| ------------- | ------------------------------------------------------------------------------------------ | -------- | ----------- |
-| Frozen Solid  | If you are below 40 health, enemy targets are rooted.                                      | 1        | Bad Status  |
-| Sub Zero      | If all the shields are destroyed on the first turn, gain 20 shields on the following turn. | 1        | Shield Up   |
-| Flashfreeze   | Gain **Haste** for 1 turn.                                                                 | 2        | Good Status |
-| Cold Shoulder | If you are below 40 health, gain **Unstoppable** for 1 turn.                               | 3        | Good Status |
-| Permafrost    | Shields last an additional turn.                                                           | 3        | Shield Up   |
+| **Mod Name**  | **Description**                                                                                | **Cost** | **Type**    |
+| ------------- | ---------------------------------------------------------------------------------------------- | -------- | ----------- |
+| Frozen Solid  | If you are below **60** health, enemy targets are **Rooted**.                                  | 2        | Bad Status  |
+| Sub Zero      | If all the shields are destroyed on the first turn, gain **20** shields on the following turn. | 1        | Shield Up   |
+| Flashfreeze   | Gain **Haste** for the turn.                                                                   | 2        | Good Status |
+| Cold Shoulder | If you are below **60** health, gain **Unstoppable** for the turn.                             | 3        | Good Status |
+| Permafrost    | Shields last **1** additional turn.                                                            | 3        | Duration    |
 
-**Default Mod:** Cold Shoulder
+**Default Mod:** Flashfreeze
 
 ---
 
@@ -110,21 +112,21 @@ title = "Vonn"
 
 - **Phase:** Blast
 - **Energy Cost:** Activation Cost: 100 energy
-- **Description:** Summon a raging blizzard that deals 30 direct damage. The blizzard lasts 2 turns, but deals 15 indirect damage on the second turn. Enemies that take damage from the blizzard are **slowed** until the end of the turn.
+- **Description:** Summon a raging blizzard that deals **30** direct damage. The blizzard lasts **2** turns, but deals **15** indirect damage on the second turn. Enemies that take damage from the blizzard are **Slowed** until the end of the turn.<br><br>The blizzard can be moved on the second turn as a **Free Action**, causing direct damage instead. Enemies that move through the blizzard will take indirect damage.
 - **Free:** No
-- **Target Type:** Free aim
-- **Target Range:** 7
+- **Target Type:** Grid
+- **Target Range:** 4
 - **Area of Effect:** Cone
 
-| **Mod Name**           | **Description**                                                                                           | **Cost** | **Type**   |
-| ---------------------- | --------------------------------------------------------------------------------------------------------- | -------- | ---------- |
-| Snowed In              | If an enemy is hit by the vortex two turns in a row, they are **slowed** at the start of their next turn. | 1        | Bad Status |
-| Bonechilling           | If an enemy is hit by the vortex two turns in a row, they gain a **Cryo Core**.                           | 2        | Special    |
-| Winter Winds           | Increase cast range and second turn movement range by 1.                                                  | 2        | Range Up   |
-| Arctic Assault         | Increases the damage of each turn by 3.                                                                   | 3        | Damage Up  |
-| **No Additional Mods** | —                                                                                                         | —        | —          |
+| **Mod Name**     | **Description**                                                                                           | **Cost** | **Type**   |
+| ---------------- | --------------------------------------------------------------------------------------------------------- | -------- | ---------- |
+| Snowed In        | If an enemy is hit by the vortex two turns in a row, they are **Slowed** at the start of their next turn. | 1        | Bad Status |
+| Bonechilling     | If an enemy is hit by the vortex two turns in a row, they gain a **Cryo Core**.                           | 2        | Special    |
+| Winter Winds     | Increase cast range and second turn movement range by **1**.                                              | 2        | Range Up   |
+| Arctic Assault   | Increases the damage of each turn by **3**.                                                               | 3        | Damage Up  |
+| Climate Engineer | Lasts **1** additional turn. deals **10** damage on final turn.                                           | 3        | Duration   |
 
-**Default Mod:** Arctic Assault
+**Default Mod:** Winter Winds
 
 ## Dossier
 

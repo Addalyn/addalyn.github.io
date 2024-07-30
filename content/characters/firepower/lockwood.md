@@ -24,15 +24,17 @@ title = "Lockwood"
 - **Phase:** Blast
 - **Cooldown:** 0
 - **Free:** No
-- **Description:** Fire a trick shot dealing 33 damage to an enemy. This shot can bounce off walls.
-- **Energy Gained:** Gain 12 energy if you hit an enemy.
+- **Description:** Fire a trick shot dealing **33** damage to an enemy. This shot can bounce off walls.
+- **Energy Gained:** Gain **12** energy if you hit an enemy.
+- **Target Type:** Free aim
+- **Target Range:** 7/9(Bouncing)
 
-| **Mod Name**  | **Description**                                                                | **Cost** | **Type**        |
-| ------------- | ------------------------------------------------------------------------------ | -------- | --------------- |
-| Pinball       | Adds an additional bounce.                                                     | 1        | Special         |
-| Extra Tricky  | Gains 1 additional damage per bounce.                                          | 2        | Damage Up       |
-| On The Move   | **Backup Plan** cooldown reduced by 1 when **Trick Shot** hits a target.       | 2        | Cooldown        |
-| Impaling Shot | **Pierces** the first target. Deals 12 direct damage to the second target hit. | 3        | Target Increase |
+| **Mod Name**  | **Description**                                                                    | **Cost** | **Type**        |
+| ------------- | ---------------------------------------------------------------------------------- | -------- | --------------- |
+| Pinball       | Adds **1** additional bounce.                                                      | 1        | Special         |
+| Extra Tricky  | Gains **1** additional damage per bounce.                                          | 2        | Damage Up       |
+| On The Move   | **Backup Plan** cooldown reduced by **1** when **Trick Shot** hits a target.       | 2        | Cooldown        |
+| Impaling Shot | **Pierces** the first target. Deals **12** direct damage to the second target hit. | 3        | Target Increase |
 
 **Default Mod:** Extra Tricky
 
@@ -40,15 +42,18 @@ title = "Lockwood"
 
 - **Phase:** Blast
 - **Cooldown:** 3
-- **Description:** Fire a barrage of bullets, dealing 30 direct damage to enemies.
-- **Energy Gained:** Gain 8 energy per enemy hit.
+- **Description:** Fire a barrage of bullets, dealing **30** direct damage to enemies.
+- **Energy Gained:** Gain **8** energy per enemy hit.
+- **Target Range:** 7
+- **Target Type:** Free aim
+- **Area of Effect:** Cone
 
-| **Mod Name**      | **Description**                                                     | **Cost** | **Type**    |
-| ----------------- | ------------------------------------------------------------------- | -------- | ----------- |
-| Phosphorus Rounds | **Reveals** enemies hit until end of next Decision Mode.            | 1        | Bad Status  |
-| Focused Fire      | Deal 35 damage but reduces the width of the arc to 45 degrees.      | 2        | Damage Up   |
-| Spray and Pray    | Increase firing arc to 90 degrees.                                  | 2        | Effect Size |
-| Quickfingers      | Gain 3 additional energy per enemy hit. Reduce cooldown to 2 turns. | 3        | Cooldown    |
+| **Mod Name**      | **Description**                                                             | **Cost** | **Type**    |
+| ----------------- | --------------------------------------------------------------------------- | -------- | ----------- |
+| Phosphorus Rounds | **Reveals** enemies hit until end of next Decision Mode.                    | 1        | Bad Status  |
+| Focused Fire      | Deal **35** damage but reduces the width of the arc to **45** degrees.      | 2        | Damage Up   |
+| Spray and Pray    | Increase firing arc to **90** degrees.                                      | 2        | Effect Size |
+| Quickfingers      | Gain **3** additional energy per enemy hit. Reduce cooldown to **2** turns. | 3        | Cooldown    |
 
 **Default Mod:** Quickfingers
 
@@ -56,15 +61,18 @@ title = "Lockwood"
 
 - **Phase:** Prep
 - **Cooldown:** 4
-- **Description:** Toss a laser trap on the ground. Enemies that move through it take 35 indirect damage. The trap lasts up to 2 turns.
-- **Energy Gained:** Gain 12 energy if you hit any enemy.
+- **Description:** Toss a laser trap on the ground. Enemies that move through it take **35** indirect damage. The trap lasts up to **2** turns.
+- **Energy Gained:** Gain **12** energy if you hit any enemy.
+- **Target Range:** 7
+- **Target Type:** Grid
 
-| **Mod Name**      | **Description**                                                          | **Cost** | **Type**    |
-| ----------------- | ------------------------------------------------------------------------ | -------- | ----------- |
-| Consolation Prize | If nobody trips the trapwire, the cooldown is reset.                     | 1        | Cooldown    |
-| Throwing Arm      | Can be targeted through walls.                                           | 2        | Special     |
-| Trapwall          | Increase the size of trapwire, but reduces damage by 5.                  | 3        | Effect Size |
-| Insta-Trap        | Now a **free action**. Reduces damage by 15 and increases cooldown by 1. | 3        | Special     |
+| **Mod Name**       | **Description**                                                                  | **Cost** | **Type**    |
+| ------------------ | -------------------------------------------------------------------------------- | -------- | ----------- |
+| Consolation Prize  | If nobody trips the trapwire, the cooldown is reset.                             | 1        | Cooldown    |
+| Throwing Arm       | Can be targeted through walls.                                                   | 2        | Special     |
+| Trapwall           | Increase the size of trapwire, but reduces damage by **5**.                      | 3        | Effect Size |
+| Insta-Trap         | Now a **free action**. Reduces damage by **15** and increases cooldown by **1**. | 3        | Special     |
+| Extra Battery Life | Duration of the **Trapwire** is increased by **2**.                              | 2        | Special     |
 
 **Default Mod:** Throwing Arm
 
@@ -72,15 +80,19 @@ title = "Lockwood"
 
 - **Phase:** Dash
 - **Cooldown:** 7
-- **Description:** Dash to target position. Taking damage reduces this ability's cooldown by 1 at the end of the turn.
-- **Energy Gained:** Gain 10 energy.
+- **Description:** Dash to target position. Taking damage reduces this ability's cooldown by **1** at the end of the turn.
+- **Energy Gained:** Gain **10** energy.
+- **Target Range:** 5
+- **Target Type:** Grid
 
-| **Mod Name**   | **Description**                                                            | **Cost** | **Type**  |
-| -------------- | -------------------------------------------------------------------------- | -------- | --------- |
-| Kinetic Dash   | Gain 1 energy for each square moved.                                       | 1        | Energy    |
-| Slippery       | Increases range by 1.                                                      | 2        | Range Up  |
-| Souvenir       | Leaves a trapwire at your starting location that deals 20 indirect damage. | 2        | Special   |
-| Tough Customer | Gain 20 shields until end of next turn.                                    | 3        | Shield Up |
+
+| **Mod Name**   | **Description**                                                                | **Cost** | **Type**    |
+| -------------- | ------------------------------------------------------------------------------ | -------- | ----------- |
+| Kinetic Dash   | Gain **1** energy for each square moved.                                       | 1        | Energy      |
+| Slippery       | Increases range by **1**.                                                      | 2        | Range Up    |
+| Souvenir       | Leaves a trapwire at your starting location that deals **20** indirect damage. | 2        | Special     |
+| Tough Customer | Gain **20** shields until end of next turn.                                    | 3        | Shield Up   |
+| Perfect Angle  | Grants **Might** until end of next turn.                                       | 2        | Good Status |
 
 **Default Mod:** Slippery
 
@@ -88,14 +100,16 @@ title = "Lockwood"
 
 - **Phase:** Dash
 - **Energy Cost:** 100
-- **Description:** Dash to target position, dealing 40 direct damage to enemies along the way.
+- **Description:** Dash to target position, dealing **40** direct damage to enemies along the way.
+- **Target Range:** 6
+- **Target Type:** Grid
 
-| **Mod Name**   | **Description**                            | **Cost** | **Type**  |
-| -------------- | ------------------------------------------ | -------- | --------- |
-| Armor Piercing | **Cover** damage reduction is halved.      | 2        | Damage Up |
-| Gunslinger     | Gain 10 energy per enemy hit.              | 1        | Energy    |
-| Errant Assault | Gain 50 energy if you do not hit an enemy. | 1        | Energy    |
-| Burst of Speed | Increase range by 3.                       | 3        | Range Up  |
+| **Mod Name**   | **Description**                                | **Cost** | **Type**  |
+| -------------- | ---------------------------------------------- | -------- | --------- |
+| Armor Piercing | **Cover** damage reduction is halved.          | 2        | Damage Up |
+| Gunslinger     | Gain **10** energy per enemy hit.              | 1        | Energy    |
+| Errant Assault | Gain **50** energy if you do not hit an enemy. | 1        | Energy    |
+| Burst of Speed | Increase range by **3**.                       | 3        | Range Up  |
 
 **Default Mod:** Errant Assault
 

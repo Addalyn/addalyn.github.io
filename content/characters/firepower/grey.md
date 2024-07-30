@@ -24,17 +24,17 @@ title = "Grey"
 - **Phase:** Blast
 - **Cooldown:** None
 - **Free:** No
-- **Description:** Deals 34 direct damage and tracks the target for 2 turns. Tracked targets are revealed.
-- **Energy Gained:** Gain 12 energy if you hit an enemy.
+- **Description:** Deals **34** direct damage and **Tracks** the target for **2** turns. **Tracked** targets are **Revealed**.
+- **Energy Gained:** Gain **12** energy if you hit an enemy.
 - **Target Type:** Free aim
 - **Target Range:** 7
 
-| **Mod Name**       | **Description**                                                                            | **Cost** | **Type**        |
-| ------------------ | ------------------------------------------------------------------------------------------ | -------- | --------------- |
-| High-Powered Bolts | Pierce enemies but only deal damage to the initial target. Subsequent enemies are tracked. | 1        | Target Increase |
-| Barbed Tip         | Increases energy gained by 3.                                                              | 2        | Energy          |
-| Hunt Them Down     | Deal 3 additional damage if the target is tracked.                                         | 2        | Damage Up       |
-| Catch the Scent    | Hitting a target with Tracer Bolt reduces the cooldown of Hawk Drone by 1.                 | 3        | Cooldown        |
+| **Mod Name**       | **Description**                                                                                | **Cost** | **Type**        |
+| ------------------ | ---------------------------------------------------------------------------------------------- | -------- | --------------- |
+| High-Powered Bolts | Pierce enemies but only deal damage to the initial target. Subsequent enemies are **Tracked**. | 1        | Target Increase |
+| Barbed Tip         | Increases energy gained by **3**.                                                              | 2        | Energy          |
+| Hunt Them Down     | Deal **3** additional damage if the target is **Tracked**.                                     | 2        | Damage Up       |
+| Catch the Scent    | Hitting a target with **Tracer Bolt** reduces the cooldown of **Hawk Drone** by **1**.         | 3        | Cooldown        |
 
 **Default Mod:** Hunt Them Down
 
@@ -45,18 +45,18 @@ title = "Grey"
 - **Phase:** Blast
 - **Cooldown:** 2
 - **Free:** No
-- **Description:** Send out your drone, dealing 14 indirect damage to untracked targets or 18 indirect damage to tracked ones. The drone stays at the location, shooting enemies during the Blast Phase until an ability moves it. These attacks ignore cover.
-- **Energy Gained:** Gain 4 energy per enemy hit.
+- **Description:** Send out your drone, dealing **14** indirect damage to untracked targets or **18** indirect damage to **Tracked** ones. The drone stays at the location, shooting enemies during the Blast Phase until an ability moves it. These attacks ignore cover.
+- **Energy Gained:** Gain **4** energy per enemy hit.
 - **Target Type:** Grid
 - **Target Range:** 8
 - **Area of Effect:** 5x5 square without 4 corner tiles
 
-| **Mod Name**         | **Description**                                          | **Cost** | **Type**    |
-| -------------------- | -------------------------------------------------------- | -------- | ----------- |
-| Eye in the Sky       | Increase the radius of Hawk Drone's vision by 1.         | 1        | Effect Size |
-| Composite Materials  | Increases the maximum range of the drone targeting by 2. | 2        | Range Up    |
-| Infrared Enhancement | Attacks invisible enemies.                               | 2        | Special     |
-| Vicious              | Increases damage to tracked targets by 4.                | 3        | Damage Up   |
+| **Mod Name**         | **Description**                                              | **Cost** | **Type**    |
+| -------------------- | ------------------------------------------------------------ | -------- | ----------- |
+| Eye in the Sky       | Increase the radius of **Hawk Drone**'s vision by **1**.     | 1        | Effect Size |
+| Composite Materials  | Increases the maximum range of the drone targeting by **2**. | 2        | Range Up    |
+| Infrared Enhancement | Attacks invisible enemies.                                   | 2        | Special     |
+| Vicious              | Increases damage to **Tracked** targets by **4**.            | 3        | Damage Up   |
 
 **Default Mod:** Composite Materials
 
@@ -67,18 +67,18 @@ title = "Grey"
 - **Phase:** Prep
 - **Cooldown:** 4
 - **Free:** Yes
-- **Description:** Launch a dart that weakens and reveals an enemy until end of turn. Enemies hit by a dart are tracked for 2 turns.
-- **Energy Gained:** Gain 6 energy per target hit.
+- **Description:** Launch a dart that **Weakens** and **Reveals** an enemy until end of turn. Enemies hit by a dart are **Tracked** for 2 turns.
+- **Energy Gained:** Gain **6** energy per target hit.
 - **Target Type:** Free aim
 - **Target Range:** 7
 
-| **Mod Name**      | **Description**                                                                | **Cost** | **Type**        |
-| ----------------- | ------------------------------------------------------------------------------ | -------- | --------------- |
-| Energy Feed       | Gain 3 additional energy on hit.                                               | 1        | Energy          |
-| Overdose          | Enemies are also slowed.                                                       | 2        | Bad Status      |
-| Impaired Judgment | Enemies hit cannot collect power-ups until the end of next turn.               | 2        | Bad Status      |
-| Adrenal Overload  | Can now hit allies, granting might and unstoppable until end of turn.          | 3        | Good Status     |
-| Double Dart       | Adds an additional dart. Reduces energy gain by 3 per dart and the range by 1. | 3        | Target Increase |
+| **Mod Name**      | **Description**                                                                           | **Cost** | **Type**        |
+| ----------------- | ----------------------------------------------------------------------------------------- | -------- | --------------- |
+| Energy Feed       | Gain **3** additional energy on hit.                                                      | 1        | Energy          |
+| Overdose          | Enemies are also **Slowed**.                                                              | 2        | Bad Status      |
+| Impaired Judgment | Enemies hit cannot collect power-ups until the end of next turn.                          | 2        | Bad Status      |
+| Adrenal Overload  | Can now hit allies, granting **Might** and **Unstoppable** until end of turn.             | 3        | Good Status     |
+| Double Dart       | Adds **1** additional dart. Reduces energy gain by **3** per dart and the range by **1**. | 3        | Target Increase |
 
 **Default Mod:** Overdose
 
@@ -90,16 +90,16 @@ title = "Grey"
 - **Cooldown:** 6
 - **Free:** No
 - **Description:** Escape to target location adjacent to your drone.
-- **Energy Gained:** Gain 10 energy.
+- **Energy Gained:** Gain **10** energy.
 - **Target Type:** Grid
 - **Target Range:** 12 but only 3x3 square under drone
 
-| **Mod Name**     | **Description**                                               | **Cost** | **Type**    |
-| ---------------- | ------------------------------------------------------------- | -------- | ----------- |
-| Thrilling Escape | Gain 5 energy when used.                                      | 1        | Energy      |
-| Agile Escape     | Increase the size of the landing area by 1.                   | 2        | Effect Size |
-| Unseen Huntress  | Become invisible until the beginning of next Resolution Mode. | 2        | Special     |
-| Shelter          | Gain 20 shields until end of next turn.                       | 3        | Shield Up   |
+| **Mod Name**     | **Description**                                                   | **Cost** | **Type**    |
+| ---------------- | ----------------------------------------------------------------- | -------- | ----------- |
+| Thrilling Escape | Gain **5** energy when used.                                      | 1        | Energy      |
+| Agile Escape     | Increase the size of the landing area by **1**.                   | 2        | Effect Size |
+| Unseen Huntress  | Become **Invisible** until the beginning of next Resolution Mode. | 2        | Good Status |
+| Shelter          | Gain **20** shields until end of next turn.                       | 3        | Shield Up   |
 
 **Default Mod:** Agile Escape
 
@@ -109,18 +109,18 @@ title = "Grey"
 
 - **Phase:** Blast
 - **Energy Cost:** 100
-- **Description:** Command your drone to target location, where it creates a cage for 2 turns. Enemies that cross a barrier are rooted and take 22 indirect damage.
+- **Description:** Command your drone to target location, where it creates a cage for **2** turns. Enemies that cross a barrier are **Rooted** and take **22** indirect damage.
 - **Free:** No
 - **Target Type:** Grid
 - **Target Range:** 8
 - **Area of Effect:** 3x3
 
-| **Mod Name**      | **Description**                                                  | **Cost** | **Type**   |
-| ----------------- | ---------------------------------------------------------------- | -------- | ---------- |
-| Prison Roster     | Enemies inside the cage are revealed until the end of next turn. | 1        | Bad Status |
-| Caught in the Web | Increases the range of Voltaic Cage by 1.                        | 2        | Range Up   |
-| Zapper            | Increases damage by 3.                                           | 2        | Damage Up  |
-| Relentless        | On cast, resets the cooldown of Hawk Drone.                      | 3        | Cooldown   |
+| **Mod Name**      | **Description**                                                      | **Cost** | **Type**   |
+| ----------------- | -------------------------------------------------------------------- | -------- | ---------- |
+| Prison Roster     | Enemies inside the cage are **Revealed** until the end of next turn. | 1        | Bad Status |
+| Caught in the Web | Increases the range of **Voltaic Cage** by **1**.                    | 2        | Range Up   |
+| Zapper            | Increases damage by **3**.                                           | 2        | Damage Up  |
+| Relentless        | On cast, resets the cooldown of **Hawk Drone**.                      | 3        | Cooldown   |
 
 **Default Mod:** Relentless
 
