@@ -24,15 +24,15 @@ title = "Elle"
 - **Phase:** Blast
 - **Cooldown:** None
 - **Free:** No
-- **Description:** Blast your enemies, dealing 26 direct damage to each enemy hit. Mods to this ability apply to shots from **Combat Reflexes** as well.
-- **Energy Gained:** Gain 8 energy per enemy hit.
+- **Description:** Blast your enemies, dealing **26** direct damage to each enemy hit. Mods to this ability apply to shots from **Combat Reflexes** as well.
+- **Energy Gained:** Gain **8** energy per enemy hit.
 - **Target Type:** Free aim
 - **Target Range:** 7
 - **Area of Effect:** Cone
 
 | **Mod Name**     | **Description**                                                                        | **Cost** | **Type**        |
 | ---------------- | -------------------------------------------------------------------------------------- | -------- | --------------- |
-| Prey on the Meek | If only one target is hit, they are **revealed** until end of the next decision phase. | 1        | Bad Status      |
+| Prey on the Meek | If only one target is hit, they are **Revealed** until end of the next decision phase. | 1        | Bad Status      |
 | Focused Fury     | If only one target is hit, increase the damage by **5**.                               | 2        | Damage Up       |
 | Wide Barrel      | Increases the size of the arc by **10** degrees at maximum range.                      | 2        | Damage Up       |
 | Killing Field    | Increases damage by up to **4** as the range becomes shorter.                          | 3        | Target Increase |
@@ -46,16 +46,16 @@ title = "Elle"
 - **Phase:** Dash
 - **Cooldown:** 4
 - **Free:** No
-- **Description:** Dash a short distance then fire your plasma gun, dealing 26 direct damage. Has **2** charges.
-- **Energy Gained:** Gain 8 energy per enemy hit.
+- **Description:** Dash a short distance then fire your plasma gun, dealing **26** direct damage. Has **2** charges.
+- **Energy Gained:** Gain **8** energy per enemy hit.
 - **Target Type:** Grid
 - **Target Range:** 1
 
 | **Mod Name**   | **Description**                                            | **Cost** | **Type**    |
 | -------------- | ---------------------------------------------------------- | -------- | ----------- |
-| Close Call     | Gain 5 shields until the end of this turn.                 | 1        | Shield Up   |
+| Close Call     | Gain **5** shields until the end of this turn.             | 1        | Shield Up   |
 | Dance of Death | Gain a third charge of **Combat Reflexes**.                | 3        | Special     |
-| Follow Through | Gain **haste** until end of next turn.                     | 2        | Good Status |
+| Follow Through | Gain **Haste** until end of next turn.                     | 2        | Good Status |
 | Action Roll    | Can now dash up to **2** spaces but no longer has charges. | 2        | Range Up    |
 
 **Default Mod:** Follow Through
@@ -67,18 +67,18 @@ title = "Elle"
 - **Phase:** Prep
 - **Cooldown:** None
 - **Free:** No
-- **Description:** Your next attack will deal 10 additional direct damage. Excludes **Lurker Drone**. Allows full movement.
-- **Energy Gained:** Gain 5 energy on use.
+- **Description:** Your next attack will deal **10** additional direct damage. Excludes **Lurker Drone**. Allows full movement.
+- **Energy Gained:** Gain **5** energy on use.
 - **Target Type:** Self
 
 | **Mod Name**     | **Description**                                                                                        | **Cost** | **Type**    |
 | ---------------- | ------------------------------------------------------------------------------------------------------ | -------- | ----------- |
-| Double Charge    | Can be used again to increase the damage bonus by an additional 4.                                     | 1        | Damage Up   |
-| Block 'N Load    | Gain 15 shields until end of turn.                                                                     | 2        | Shield Up   |
-| Leg Shot         | While **Overcharge** is active, **Combat Reflexes** **slows** all enemies hit.                         | 2        | Bad Status  |
-| On the Chase     | Gain **haste** for the turn.                                                                           | 2        | Good Status |
-| Brutal Precision | While **Overcharge** is active, **Plasma Volley** causes all enemies hit to be **weakened** next turn. | 3        | Bad Status  |
-| Undercharge      | Reduce damage increased by 4, lasts for **1** additional attack.                                       | 2        | Special     |
+| Double Charge    | Can be used again to increase the damage bonus by an additional **4**.                                 | 1        | Damage Up   |
+| Block 'N Load    | Gain **15** shields until end of turn.                                                                 | 2        | Shield Up   |
+| Leg Shot         | While **Overcharge** is active, **Combat Reflexes** **Slows** all enemies hit.                         | 2        | Bad Status  |
+| On the Chase     | Gain **Haste** for the turn.                                                                           | 2        | Good Status |
+| Brutal Precision | While **Overcharge** is active, **Plasma Volley** causes all enemies hit to be **Weakened** next turn. | 3        | Bad Status  |
+| Undercharge      | Reduce damage increased by **4**, lasts for **1** additional attack.                                   | 2        | Special     |
 
 **Default Mod:** On the Chase
 
@@ -89,18 +89,18 @@ title = "Elle"
 - **Phase:** Prep
 - **Cooldown:** 5
 - **Free:** Yes
-- **Description:** Place a Lurker Drone. Can be freely triggered on a subsequent turn, exploding for 20 indirect damage and **slowing** targets hit until end of that turn. Not affected by **Overcharge**. Fires automatically after **3** turns.
-- **Energy Gained:** Gain 8 energy per enemy hit.
+- **Description:** Place a Lurker Drone. Can be freely triggered on a subsequent turn, exploding for **20** indirect damage and **Slowing** targets hit until end of that turn. Not affected by **Overcharge**. Fires automatically after **3** turns.
+- **Energy Gained:** Gain **8** energy per enemy hit.
 - **Target Type:** Free aim
 - **Target Range:** 7
 
-| **Mod Name**     | **Description**                                             | **Cost** | **Type**    |
-| ---------------- | ----------------------------------------------------------- | -------- | ----------- |
-| Bodyguard        | **Lurker Drone** changes its facing towards Elle each turn. | 1        | Special     |
-| Rapid Deployment | Reduce the cooldown by 1 turn.                              | 1        | Cooldown    |
-| Bunker Buster    | **Cover** damage reduction is halved.                       | 2        | Damage Up   |
-| Point Blank      | Targets within 2 spaces take an additional 8 damage.        | 2        | Damage Up   |
-| Larger Lurker    | Increase the width by **30%**.                              | 3        | Effect Size |
+| **Mod Name**     | **Description**                                              | **Cost** | **Type**    |
+| ---------------- | ------------------------------------------------------------ | -------- | ----------- |
+| Bodyguard        | **Lurker Drone** changes its facing towards Elle each turn.  | 1        | Special     |
+| Rapid Deployment | Reduce the cooldown by **1** turn.                           | 1        | Cooldown    |
+| Bunker Buster    | Cover damage reduction is halved.                            | 2        | Damage Up   |
+| Point Blank      | Targets within **2** spaces take an additional **8** damage. | 2        | Damage Up   |
+| Larger Lurker    | Increase the width by **30%**.                               | 3        | Effect Size |
 
 **Default Mod:** Bunker Buster
 
@@ -110,7 +110,7 @@ title = "Elle"
 
 - **Phase:** Blast
 - **Energy Cost:** 100
-- **Description:** Deals 40 direct damage and **knocks back** enemies in a cone. The **knockback** also affects you.
+- **Description:** Deals **40** direct damage and **Knocks back** enemies in a cone. The **Knockback** also affects you.
 - **Free:** No
 - **Target Type:** Free aim
 - **Target Range:** 7
@@ -118,10 +118,10 @@ title = "Elle"
 
 | **Mod Name**  | **Description**                                                                               | **Cost** | **Type**    |
 | ------------- | --------------------------------------------------------------------------------------------- | -------- | ----------- |
-| Crowd Control | **Knockback** distance of enemies is increased by 2.                                          | 1        | Special     |
-| Warpath       | Gain **unstoppable** for the turn.                                                            | 1        | Good Status |
-| Art of Murder | **Cover** damage reduction is halved.                                                         | 2        | Damage Up   |
-| Killing Spree | The next time you use **Overcharge** after using **Oblivion Shell**, it is a **free action**. | 3        | Special     |
+| Crowd Control | **Knockback** distance of enemies is increased by **2**.                                      | 1        | Special     |
+| Warpath       | Gain **Unstoppable** for the turn.                                                            | 1        | Good Status |
+| Art of Murder | Cover damage reduction is halved.                                                             | 2        | Damage Up   |
+| Killing Spree | The next time you use **Overcharge** after using **Oblivion Shell**, it is a **Free Action**. | 3        | Special     |
 
 **Default Mod:** Art of Murder
 
