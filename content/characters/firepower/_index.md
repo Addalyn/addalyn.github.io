@@ -14,7 +14,7 @@ weight = 1
 
 Firepowers are generally the main source of damage for a team but also have the drawback of having a low amount of health. The fact that they have a lower health pool is usually offset by one or more abilities that will provide them with the tools they need to stay alive. The most common utility by far is some form of dash, followed by stealth and then ending on life steal and shields.
 
-Firepower Freelancers use a wide array of abilities, including long, medium, and close range. Some of them use traps too, which are set in the [Prep Phase](#) and trigger in various different phases.
+Firepower Freelancers use a wide array of abilities, including long, medium, and close range. Some of them use traps too, which are set in the Prep Phase and trigger in various different phases.
 
 There are currently 16 Firepower Freelancers:
 

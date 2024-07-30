@@ -1,6 +1,6 @@
 +++
 archetype = "home"
-title = "Freelancers in Atlas Reactor"
+title = "Freelancers"
 weight = 1
 +++
 
