@@ -25,7 +25,7 @@ title = "Gremolitions Inc."
 - **Cooldown:** None
 - **Free:** No
 - **Description:** Launch two arcing bombs that deal 22 direct damage. If they don't hit a target they leave behind a mine that deals 10 indirect damage and last for 2 turns.
-- **Energy Gained:** Gain 6 energy per enemy hit.
+- **Energy Gained:** Gain 7 energy per enemy hit.
 - **Target Type:** Grid
 - **Target Range:** 3-8
 
@@ -47,7 +47,7 @@ title = "Gremolitions Inc."
 - **Cooldown:** 4
 - **Free:** Yes
 - **Description:** Drop mines in all adjacent squares that deal 10 indirect damage and last for 2 turns.
-- **Energy Gained:** Gain 6 energy per enemy hit.
+- **Energy Gained:** Gain 7 energy per enemy hit.
 - **Target Type:** Self
 - **Area of Effect:** 3x3
 
@@ -93,7 +93,7 @@ title = "Gremolitions Inc."
 - **Cooldown:** 7
 - **Free:** No
 - **Description:** Jump to two locations in quick succession, dealing 20 direct damage to nearby enemies.
-- **Energy Gained:** Gain 5 energy per enemy hit.
+- **Energy Gained:** Gain 6 energy per enemy hit.
 - **Target Type:** Grid
 - **Target Range:** Two sequenced dashes with possible locations placed on a perimeter of a 7x7 square centered around current position.
 - **Area of Effect:** 3x3
