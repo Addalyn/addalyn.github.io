@@ -24,19 +24,19 @@ title = "Nix"
 - **Phase:** Blast
 - **Cooldown:** None
 - **Free:** No
-- **Description:** Snipe an enemy, dealing 35 direct damage.
-- **Energy Gained:** Gain 12 energy if you hit an enemy.
+- **Description:** Snipe an enemy, dealing **35** direct damage.
+- **Energy Gained:** Gain **12** energy if you hit an enemy.
 - **Target Type:** Free aim
 - **Target Range:** 9
 
-| **Mod Name**       | **Description**                                                                | **Cost** | **Type**        |
-| ------------------ | ------------------------------------------------------------------------------ | -------- | --------------- |
-| Zero In            | Increase range by 1.                                                           | 1        | Effect Size     |
-| High-Energy Rounds | Increases energy gained by 3.                                                  | 2        | Energy          |
-| Spotter            | If the target is farther than 6 spaces away, they take an additional 4 damage. | 2        | Damage Up       |
-| Hard-core          | Pierces the first target hit. Deals 22 direct damage to the second target hit. | 3        | Target Increase |
+| **Mod Name**       | **Description**                                                                        | **Cost** | **Type**        |
+| ------------------ | -------------------------------------------------------------------------------------- | -------- | --------------- |
+| Zero In            | Increase range by **1**.                                                               | 1        | Effect Size     |
+| High-Energy Rounds | Increases energy gained by **3**.                                                      | 2        | Energy          |
+| Spotter            | If the target is farther than **6** spaces away, they take an additional **4** damage. | 2        | Damage Up       |
+| Hard-core          | Pierces the first target hit. Deals **22** direct damage to the second target hit.     | 3        | Target Increase |
 
-**Default Mod:** Hard-core
+**Default Mod:** Spotter
 
 ---
 
@@ -45,16 +45,16 @@ title = "Nix"
 - **Phase:** Prep
 - **Cooldown:** 5
 - **Free:** Yes
-- **Description:** Grants invisibility until the end of next turn. Using an ability or getting hit reveals you temporarily.
-- **Energy Gained:** Gain 8 energy.
+- **Description:** Grants **Invisibility** until the end of next turn. Using an ability or getting hit reveals you temporarily.
+- **Energy Gained:** Gain **8** energy.
 - **Target Type:** Self
 
-| **Mod Name**        | **Description**                                                                     | **Cost** | **Type**    |
-| ------------------- | ----------------------------------------------------------------------------------- | -------- | ----------- |
-| Field Triage        | Restore 10 health when used.                                                        | 1        | Heal        |
-| Electromagnetic Aid | Become energized until the end of the turn.                                         | 2        | Good Status |
-| Disengage           | On use, gain haste until the end of this turn. Haste applies to movement this turn. | 3        | Good Status |
-| Resilient Suit      | Gain 15 shields until end of next turn.                                             | 3        | Shield Up   |
+| **Mod Name**        | **Description**                                                                             | **Cost** | **Type**    |
+| ------------------- | ------------------------------------------------------------------------------------------- | -------- | ----------- |
+| Field Triage        | Restore **10** health when used.                                                            | 1        | Heal        |
+| Electromagnetic Aid | Become **Energized** until the end of the turn.                                             | 2        | Good Status |
+| Disengage           | On use, gain **Haste** until the end of this turn. **Haste** applies to movement this turn. | 3        | Good Status |
+| Resilient Suit      | Gain **15** shields until end of next turn.                                                 | 3        | Shield      |
 
 **Default Mod:** Electromagnetic Aid
 
@@ -65,17 +65,18 @@ title = "Nix"
 - **Phase:** Prep
 - **Cooldown:** 2
 - **Free:** No
-- **Description:** Place a drone that watches a direction. The first enemy to cross the line takes 30 indirect damage. The drone lasts 2 turns.
-- **Energy Gained:** Gain 10 energy if you hit an enemy.
+- **Description:** Place a drone that watches a direction. The first enemy to cross the line takes **30** indirect damage. The drone lasts **2** turns.
+- **Energy Gained:** Gain **10** energy if you hit an enemy.
 - **Target Type:** Free aim
 - **Target Range:** 9
 
-| **Mod Name**        | **Description**                                                  | **Cost** | **Type**        |
-| ------------------- | ---------------------------------------------------------------- | -------- | --------------- |
-| Watchful Eye        | Increases drone duration by 1.                                   | 1        | Effect Size     |
-| High Velocity Round | Increases damage by 4.                                           | 2        | Damage Up       |
-| Drone Network       | Gain a second charge of Overwatch Drone.                         | 3        | Special         |
-| Ammo Replication    | Hits all targets that move through it instead of just the first. | 3        | Target Increase |
+| **Mod Name**        | **Description**                                                      | **Cost** | **Type**        |
+| ------------------- | -------------------------------------------------------------------- | -------- | --------------- |
+| Watchful Eye        | Increases drone duration by **1**.                                   | 1        | Effect Size     |
+| High Velocity Round | Increases damage by **4**.                                           | 2        | Damage Up       |
+| Drone Network       | Gain a second charge of Overwatch Drone.                             | 3        | Special         |
+| Ammo Replication    | Hits all targets that move through it instead of just the first.     | 3        | Target Increase |
+| Taser Drone         | Enemies hit are **Weakened** until the end of the next turn.         | 2        | Bad Status      |
 
 **Default Mod:** High Velocity Round
 
@@ -86,17 +87,17 @@ title = "Nix"
 - **Phase:** Blast
 - **Cooldown:** 5
 - **Free:** No
-- **Description:** Fire an exploding round that deals 30 direct damage to the target and 20 direct damage to the surrounding enemies. The main target is slowed for the turn.
-- **Energy Gained:** Gain 8 energy per enemy hit.
+- **Description:** Fire an exploding round that deals **30** direct damage to the target and **20** direct damage to the surrounding enemies. The main target is **Slowed** for the turn.
+- **Energy Gained:** Gain **8** energy per enemy hit.
 - **Target Type:** Free aim
 - **Target Range:** 9
 
-| **Mod Name**   | **Description**                          | **Cost** | **Type**   |
-| -------------- | ---------------------------------------- | -------- | ---------- |
-| Nova           | Increases splash damage by 5.            | 1        | Damage Up  |
-| Taser Round    | All enemies hit are slowed for the turn. | 2        | Bad Status |
-| Riot Round     | All enemies hit are weakened next turn.  | 2        | Bad Status |
-| Crippling Shot | Target is slowed for an additional turn. | 3        | Bad Status |
+| **Mod Name**   | **Description**                                 | **Cost** | **Type**   |
+| -------------- | ----------------------------------------------- | -------- | ---------- |
+| Nova           | Increases splash damage by **5**.               | 1        | Damage Up  |
+| Taser Round    | All enemies hit are **Slowed** for the turn.    | 2        | Bad Status |
+| Riot Round     | All enemies hit are **Weakened** next turn.     | 2        | Bad Status |
+| Crippling Shot | Target is **Slowed** for **1** additional turn. | 3        | Bad Status |
 
 **Default Mod:** Taser Round
 
@@ -106,17 +107,18 @@ title = "Nix"
 
 - **Phase:** Blast
 - **Energy Cost:** 100
-- **Description:** Unleash an experimental round that deals 50 direct damage to all enemies in its path. Shoots through walls and ignores cover.
+- **Description:** Unleash an experimental round that deals **50** direct damage to all enemies in its path. Shoots through walls and ignores cover.
 - **Free:** No
 
-| **Mod Name**           | **Description**                                                    | **Cost** | **Type**    |
-| ---------------------- | ------------------------------------------------------------------ | -------- | ----------- |
-| Phosphorescent Residue | Enemies hit are revealed until the end of the next turn.           | 1        | Bad Status  |
-| Focused Beam           | Increases range by 2.                                              | 2        | Range Up    |
-| Extraction Plan        | On use, gain invisibility until the end of the next Decision Mode. | 3        | Good Status |
-| Reaper Shells          | Deals an additional 10 damage to enemies below 50% health.         | 3        | Damage Up   |
+| **Mod Name**           | **Description**                                                        | **Cost** | **Type**    |
+| ---------------------- | ---------------------------------------------------------------------- | -------- | ----------- |
+| Phosphorescent Residue | Enemies hit are **Revealed** until the end of the next turn.           | 1        | Bad Status  |
+| Focused Beam           | Increases range by **2**.                                              | 2        | Range Up    |
+| Extraction Plan        | On use, gain **Invisibility** until the end of the next Decision Mode. | 3        | Good Status |
+| Reaper Shells          | Deals an additional **10** damage to enemies below 50% health.         | 3        | Damage Up   |
+| Path Of Destruction    | Increases the width of the shot by **100%**.                           | 2        | Range Up    |
 
-**Default Mod:** Reaper Shells
+**Default Mod:** Focused Beam
 
 ## Dossier
 
