@@ -24,19 +24,20 @@ title = "Orion"
 - **Phase:** Blast
 - **Cooldown:** None
 - **Free:** No
-- **Description:** Blast enemies with empyrean energy, dealing 22 direct damage to targets in the center and 16 direct damage to others. Ignores cover.<br><br>**Shards:** Increase outer explosion radius by 10% per shard.
+- **Description:** Blast enemies with empyrean energy, dealing **22** direct damage to targets in the center and **16** direct damage to others. Ignores cover.<br><br>**Shards:** Increase outer explosion radius by **10%** per shard.
 - **Energy Gained:** None
 - **Target Type:** Free aim
 - **Target Range:** 7
 - **Area of Effect:** Cone
 
-| **Mod Name**         | **Description**                                    | **Cost** | **Type**    |
-| -------------------- | -------------------------------------------------- | -------- | ----------- |
-| Focused Flames       | Deal 3 additional damage if only one enemy is hit. | 1        | Damage Up   |
-| Amplified Eruption   | Deal 1 additional damage per shard.                | 2        | Damage Up   |
-| Devour Energy        | Gain 3 energy for each enemy hit.                  | 2        | Energy      |
-| Empyreal Destruction | The base radius is increased by 20%.               | 3        | Effect Size |
-| **Default Mod:**     | Amplified Eruption                                 |          |             |
+| **Mod Name**         | **Description**                                        | **Cost** | **Type**    |
+| -------------------- | ------------------------------------------------------ | -------- | ----------- |
+| Focused Flames       | Deal **3** additional damage if only one enemy is hit. | 1        | Damage Up   |
+| Amplified Eruption   | Deal **1** additional damage per shard.                | 2        | Damage Up   |
+| Devour Energy        | Gain **3** energy for each enemy hit.                  | 2        | Energy      |
+| Empyreal Destruction | The base radius is increased by **20%**.               | 3        | Effect Size |
+
+**Default Mod:** Amplified Eruption
 
 ---
 
@@ -45,19 +46,20 @@ title = "Orion"
 - **Phase:** Prep
 - **Cooldown:** 3
 - **Free:** No
-- **Description:** Grant yourself 15 shields, then redirect 75% of the damage the ally takes this turn. 75% of the damage taken from this ability converts directly into energy.<br><br>**Shards:** You gain additional 3 shields per shard.
+- **Description:** Grant yourself **15** shields, then redirect **75%** of the damage the ally takes this turn. **75%** of the damage taken from this ability converts directly into energy.<br><br>**Shards:** You gain additional **3** shields per shard.
 - **Energy Gained:** None  
 - **Target Type:** Grid
-- **Target Range:** 1
+- **Target Range:** 8
 
-| **Mod Name**     | **Description**                                                             | **Cost** | **Type**    |
-| ---------------- | --------------------------------------------------------------------------- | -------- | ----------- |
-| Shared Agony     | Only take 50% of damage from your ally. They gain 15 shields.               | 1        | Special     |
-| Augment Barrier  | Gain an additional 2 shields per shard.                                     | 2        | Shield Up   |
-| Rebuild          | Next turn heal 20% of damage redirected through Fate Transfer.              | 2        | Heal        |
-| Divine Purpose   | Both you and your target become unstoppable for the turn.                   | 3        | Good Status |
-| Energy Leech     | Gain an additional 25% energy from damage redirected through Fate Transfer. | 3        | Energy      |
-| **Default Mod:** | Rebuild                                                                     |          |             |
+| **Mod Name**     | **Description**                                                                 | **Cost** | **Type**    |
+| ---------------- | ------------------------------------------------------------------------------- | -------- | ----------- |
+| Shared Agony     | Only take **50%** of damage from your ally. They gain **15** shields.           | 1        | Special     |
+| Augment Barrier  | Gain an additional **2** shields per shard.                                     | 2        | Shield Up   |
+| Rebuild          | Next turn heal **20%** of damage redirected through Fate Transfer.              | 2        | Heal        |
+| Divine Purpose   | Both you and your target become **Unstoppable** for the turn.                   | 3        | Good Status |
+| Energy Leech     | Gain an additional **25%** energy from damage redirected through Fate Transfer. | 3        | Energy      |
+
+**Default Mod:** Rebuild
 
 ---
 
@@ -66,19 +68,20 @@ title = "Orion"
 - **Phase:** Prep
 - **Cooldown:** 3
 - **Free:** Yes
-- **Description:** Target an ally as a focal point of pure energy. When they are hit with a damaging ability, an explosion erupts for 15 indirect damage.
+- **Description:** Target an ally as a focal point of pure energy. When they are hit with a damaging ability, an explosion erupts for **15** indirect damage.
 - **Energy Gained:** None
 - **Target Type:** Grid
-- **Target Range:** 1
+- **Target Range:** 8
 
-| **Mod Name**        | **Description**                                                  | **Cost** | **Type**   |
-| ------------------- | ---------------------------------------------------------------- | -------- | ---------- |
-| Punish the cowardly | If Quantum Core is not triggered, reduce the cooldown by 1 turn. | 1        | Cooldown   |
-| Benevolent          | Target gains 2 shields per shard.                                | 2        | Shield Up  |
-| Pain and Gain       | Gain 5 energy per enemy hit.                                     | 2        | Energy     |
-| Vengeful            | Deal 2 additional damage per shard.                              | 2        | Damage Up  |
-| Bow Down            | Slow enemies hit until end of turn.                              | 3        | Bad Status |
-| **Default Mod:**    | Benevolent                                                       |          |            |
+| **Mod Name**        | **Description**                                                          | **Cost** | **Type**   |
+| ------------------- | ------------------------------------------------------------------------ | -------- | ---------- |
+| Punish the cowardly | If **Quantum Core** is not triggered, reduce the cooldown by **1** turn. | 1        | Cooldown   |
+| Benevolent          | Target gains **2** shields per shard.                                    | 2        | Shield Up  |
+| Pain and Gain       | Gain **5** energy per enemy hit.                                         | 2        | Energy     |
+| Vengeful            | Deal **2** additional damage per shard.                                  | 2        | Damage Up  |
+| Bow Down            | **Slow** enemies hit until end of turn.                                  | 3        | Bad Status |
+
+**Default Mod:** Benevolent
 
 ---
 
@@ -87,19 +90,20 @@ title = "Orion"
 - **Phase:** Prep
 - **Cooldown:** 4
 - **Free:** No
-- **Description:** Heal your target for 10 health a turn for 2 turns. Heals himself for the first turn's amount if used on an ally.<br><br>**Shards:** Target gains an additional 2 health per turn per shard.
+- **Description:** Heal your target for **10** health a turn for **2** turns. Heals himself for the first turn's amount if used on an ally.<br><br>**Shards:** Target gains an additional **2** health per turn per shard.
 - **Energy Gained:** None
 - **Target Type:** Grid
-- **Target Range:** 1
+- **Target Range:** 8
 
-| **Mod Name**            | **Description**                                                                 | **Cost** | **Type**  |
-| ----------------------- | ------------------------------------------------------------------------------- | -------- | --------- |
-| Innate Potency          | Increase healing by 7 per turn. No longer gains any bonus from shards.          | 1        | Heal      |
-| Intervention            | Heal an additional 10 health if the target is under the effect of Quantum Core. | 1        | Heal      |
-| Enhanced Reconstruction | Increase healing by 1 per shard.                                                | 2        | Heal      |
-| Omnipotent              | Can be targeted through walls.                                                  | 2        | Special   |
-| Mend the Broken         | If used on an ally below 50% health, they gain 15 shields for the turn.         | 3        | Shield Up |
-| **Default Mod:**        | Enhanced Reconstruction                                                         |          |           |
+| **Mod Name**            | **Description**                                                                         | **Cost** | **Type**  |
+| ----------------------- | --------------------------------------------------------------------------------------- | -------- | --------- |
+| Innate Potency          | Increase healing by **7** per turn. No longer gains any bonus from shards.              | 1        | Heal Up   |
+| Intervention            | Heal an additional **10** health if the target is under the effect of **Quantum Core**. | 1        | Heal Up   |
+| Enhanced Reconstruction | Increase healing by **1** per shard.                                                    | 2        | Heal Up   |
+| Omnipotent              | Can be targeted through walls.                                                          | 2        | Special   |
+| Mend the Broken         | If used on an ally below **50%** health, they gain **15** shields for the turn.         | 3        | Shield Up |
+
+**Default Mod:** Enhanced Reconstruction
 
 ---
 
@@ -107,19 +111,19 @@ title = "Orion"
 
 - **Phase:** Blast
 - **Energy Cost:** Activation Cost: 100
-- **Description:** Consume all shards to gain 30 health and deal 30 direct damage in an area. Gain unstoppable for the turn.<br><br>**Passive:** Gain a shard for every 20 energy held. Half of the damage taken converts into energy. Lose 75% of energy on death. Energize does not affect energy gained through taking damage.
+- **Description:** Consume all shards to gain **30** health and deal **30** direct damage in an area. Gain **Unstoppable** for the turn.<br><br>**Passive:** Gain a shard for every **20** energy held. **Half** of the damage taken converts into energy. Lose **75%** of energy on death. Energize does not affect energy gained through taking damage.
 - **Free:** No
-- **Target Type:** Free aim
-- **Target Range:** 7
-- **Area of Effect:** Cone
+- **Target Type:** Self
+- **Area of Effect:** Radius of 4
 
-| **Mod Name**          | **Description**                                                                    | **Cost** | **Type** |
-| --------------------- | ---------------------------------------------------------------------------------- | -------- | -------- |
-| Almighty              | Gain 3 additional health per enemy hit.                                            | 1        | Heal     |
-| Closer to the Conduit | Gain 20 energy on use.                                                             | 2        | Energy   |
-| Energy Accumulation   | Each turn you are at maximum energy, increase the healing by 3 to a maximum of 15. | 2        | Heal     |
-| Refresh the Source    | Reduce all active cooldowns by 1.                                                  | 3        | Cooldown |
-| **Default Mod:**      | Energy Accumulation                                                                |          |          |
+| **Mod Name**          | **Description**                                                                            | **Cost** | **Type** |
+| --------------------- | ------------------------------------------------------------------------------------------ | -------- | -------- |
+| Almighty              | Gain **3** additional health per enemy hit.                                                | 1        | Heal Up  |
+| Closer to the Conduit | Gain **20** energy on use.                                                                 | 2        | Energy   |
+| Energy Accumulation   | Each turn you are at maximum energy, increase the healing by **3** to a maximum of **15**. | 2        | Heal Up  |
+| Refresh the Source    | Reduce all active cooldowns by **1**.                                                      | 3        | Cooldown |
+
+**Default Mod:** Energy Accumulation
 
 ## Dossier
 
