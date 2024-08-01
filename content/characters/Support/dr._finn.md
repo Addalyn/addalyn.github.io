@@ -24,18 +24,18 @@ title = "Dr. Finn"
 - **Phase:** Blast
 - **Cooldown:** None
 - **Free:** No
-- **Description:** Create a cone of high pressured water that deals between 12 and 24 direct damage depending on the size of the targeter.
-- **Energy Gained:** Gain 5 energy per enemy hit.
+- **Description:** Create a cone of high pressured water that deals between **12** and **24** direct damage depending on the size of the targeter.
+- **Energy Gained:** Gain **5** energy per enemy hit.
 - **Target Type:** Free aim
 - **Target Range:** 7
 - **Area of Effect:** Cone
 
-| **Mod Name**     | **Description**                                                                   | **Cost** | **Type**  |
-| ---------------- | --------------------------------------------------------------------------------- | -------- | --------- |
-| Catch of the Day | Gain an additional 6 energy if only one target is hit.                            | 1        | Energy    |
-| Firehose         | Increase the maximum arc by 30 degrees.                                           | 2        | Range Up  |
-| High Pressure    | Deal up to an additional 3 damage the smaller the arc of the cone is.             | 3        | Damage Up |
-| Spray and Play   | Increase the ally healing amount of the next Refreshing Spray by 2 per enemy hit. | 3        | Heal      |
+| **Mod Name**     | **Description**                                                                       | **Cost** | **Type**  |
+| ---------------- | ------------------------------------------------------------------------------------- | -------- | --------- |
+| Catch of the Day | Gain an additional **6** energy if only one target is hit.                            | 1        | Energy    |
+| Firehose         | Increase the maximum arc by **30** degrees.                                           | 2        | Range Up  |
+| High Pressure    | Deal up to an additional **3** damage the smaller the arc of the cone is.             | 3        | Damage Up |
+| Spray and Play   | Increase the ally healing amount of the next Refreshing Spray by **2** per enemy hit. | 3        | Heal      |
 
 **Default Mod:** High Pressure
 
@@ -46,18 +46,19 @@ title = "Dr. Finn"
 - **Phase:** Prep
 - **Cooldown:** 3
 - **Free:** No
-- **Description:** Create a cone of healing waters, healing allies for 24 to 30 depending on size, and himself for 12.
-- **Energy Gained:** Gain 6 energy per ally hit.
+- **Description:** Create a cone of healing waters, healing allies for **24** to **30** depending on size, and himself for **12**.
+- **Energy Gained:** Gain **6**	energy per ally hit.
 - **Target Type:** Free aim
 - **Target Range:** 7
 - **Area of Effect:** Cone
 
-| **Mod Name** | **Description**                                        | **Cost** | **Type**    |
-| ------------ | ------------------------------------------------------ | -------- | ----------- |
-| Heal in One  | If only one ally is hit they heal for an additional 8. | 1        | Heal        |
-| Self Fish    | Finn heals himself for an additional 8.                | 2        | Heal        |
-| Shored Up    | Targets hit also gain 6 shields for the turn.          | 2        | Shield Up   |
-| Mussels      | Nearest ally hit gains might for the turn.             | 3        | Good Status |
+| **Mod Name** | **Description**                                                                          | **Cost** | **Type**    |
+| ------------ | ---------------------------------------------------------------------------------------- | -------- | ----------- |
+| Heal in One  | If only one ally is hit they heal for an additional **8**.                               | 1        | Heal        |
+| Self Fish    | Finn heals himself for an additional **8**.                                              | 2        | Heal        |
+| Shored Up    | Targets hit also gain **6** shields for the turn.                                        | 2        | Shield Up   |
+| Mussels      | Nearest ally hit gains **Might** for the turn.                                           | 3        | Good Status |
+| Flounder     | Additionally **Weakens** enemies hit for the turn. Generates **2** energy per enemy hit. | 3        | Bad Status  |
 
 **Default Mod:** Shored Up
 
@@ -68,19 +69,19 @@ title = "Dr. Finn"
 - **Phase:** Blast
 - **Cooldown:** 4
 - **Free:** No
-- **Description:** Launch eels at an enemy that deal 20 direct damage and reveal until the end of the next decision mode. Ignores Cover. The next two Blast Phases, the eels launch themselves at the nearest enemy within 4 spaces causing the same effect.
-- **Energy Gained:** Gain 6 energy if you hit a target.
+- **Description:** Launch eels at an enemy that deal **20** direct damage and **Reveal** until the end of the next decision mode. Ignores Cover. The next two Blast Phases, the eels launch themselves at the nearest enemy within **4** spaces causing the same effect.
+- **Energy Gained:** Gain **6** energy if you hit a target.
 - **Target Type:** Free aim
 - **Target Range:** 7
 
-| **Mod Name**      | **Description**                                                               | **Cost** | **Type**    |
-| ----------------- | ----------------------------------------------------------------------------- | -------- | ----------- |
-| Master Angler     | Deals an additional 6 damage when it jumps.                                   | 1        | Damage Up   |
-| Spout of Sight    | Can hit targets that are invisible or camouflaged.                            | 2        | Special     |
-| That Magic Eeling | Increase the range of the jump by 1.                                          | 2        | Range Up    |
-| That's a Moray    | The eels can now target or jump to allies, granting them energized next turn. | 3        | Good Status |
+| **Mod Name**      | **Description**                                                                   | **Cost** | **Type**    |
+| ----------------- | --------------------------------------------------------------------------------- | -------- | ----------- |
+| Master Angler     | Deals an additional **6** damage when it jumps.                                   | 1        | Damage Up   |
+| Spout of Sight    | Can hit targets that are invisible or camouflaged.                                | 2        | Special     |
+| That Magic Eeling | Increase the range of the jump by **1**.                                          | 2        | Range Up    |
+| That's a Moray    | The eels can now target or jump to allies, granting them **Energized** next turn. | 3        | Good Status |
 
-**Default Mod:** That's a Moray
+**Default Mod:** That Magic Eeling
 
 ---
 
@@ -89,37 +90,41 @@ title = "Dr. Finn"
 - **Phase:** Prep
 - **Cooldown:** 4
 - **Free:** No
-- **Description:** Attaches a bubble to an ally, shielding them for 45. During Blast phase, the bubble pops dealing 10 indirect damage and slowing enemies for the turn.
-- **Energy Gained:** Gain 8 energy on cast and 4 energy per enemy hit.
+- **Description:** Attaches a bubble to an ally, shielding them for **45**. During Blast phase, the bubble pops dealing **10** indirect damage and **Slowing** enemies for the turn.
+- **Energy Gained:** Gain **8** energy on cast and **4** energy per enemy hit.
 - **Target Type:** Self/ally
 - **Target Range:** 8
 - **Area of Effect:** Damage radius 1.5
 
-| **Mod Name**  | **Description**                                                         | **Cost** | **Type**    |
-| ------------- | ----------------------------------------------------------------------- | -------- | ----------- |
-| Unstop-Bubble | Shielded target becomes unstoppable for the turn.                       | 1        | Good Status |
-| Bubble Time   | Reduce the cooldown by 1 but also reduce the amount of shielding by 10. | 2        | Cooldown    |
-| Cast Away     | Can be targeted through walls.                                          | 2        | Special     |
-| Bubble Trap   | Enemies hit are now rooted.                                             | 3        | Bad Status  |
+| **Mod Name**  | **Description**                                                                 | **Cost** | **Type**    |
+| ------------- | ------------------------------------------------------------------------------- | -------- | ----------- |
+| Unstop-Bubble | Shielded target becomes **Unstoppable** for the turn.                           | 1        | Good Status |
+| Bubble Time   | Reduce the cooldown by **1** but also reduce the amount of shielding by **10**. | 2        | Cooldown    |
+| Cast Away     | Can be targeted through walls.                                                  | 2        | Special     |
+| Bubble Trap   | Enemies hit are now **Rooted**.                                                 | 3        | Bad Status  |
+| Double Bubble | Persists **1** additional turn if the shield isn't broken.                      | 2        | Duration    |
 
+**Default Mod:** Cast Away
 ---
 
 ### Ability 5: Maelstrom
 
 - **Phase:** Blast
 - **Energy Cost:** 100
-- **Description:** Summon churning waters that deal 30 direct damage and pull in enemies.
+- **Description:** Summon churning waters that deal **30** direct damage and **Pull In** enemies.
 - **Free:** No
 - **Target Type:** Grid
 - **Target Range:** 7
 - **Area of Effect:** 5x5
 
-| **Mod Name**      | **Description**                                                                                | **Cost** | **Type**   |
-| ----------------- | ---------------------------------------------------------------------------------------------- | -------- | ---------- |
-| Cast Off          | Gain unstoppable until end of turn.                                                            | 1        | Special    |
-| Grand Finn-ale    | Deal an additional 10 damage to targets in the center and 5 to targets adjacent to the center. | 2        | Damage Up  |
-| Riptide           | Enemies hit are slowed until end of next turn.                                                 | 2        | Bad Status |
-| Leech Infestation | Gain 10 health per enemy hit.                                                                  | 3        | Heal       |
+| **Mod Name**      | **Description**                                                                                        | **Cost** | **Type**   |
+| ----------------- | ------------------------------------------------------------------------------------------------------ | -------- | ---------- |
+| Cast Off          | Gain **Unstoppable** until end of turn.                                                                | 1        | Special    |
+| Grand Finn-ale    | Deal an additional **10** damage to targets in the center and **5** to targets adjacent to the center. | 2        | Damage Up  |
+| Riptide           | Enemies hit are **Slowed** until end of next turn.                                                     | 2        | Bad Status |
+| Leech Infestation | Gain **10** health per enemy hit.                                                                      | 3        | Heal       |
+
+**Default Mod:** Riptide
 
 ## Dossier
 
