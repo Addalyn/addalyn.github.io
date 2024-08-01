@@ -1,6 +1,6 @@
 +++
 archetype = "home"
-title = "Abilitys"
+title = "Abilities"
 +++
 
 Abilities in [[Atlas Reactor]] refer to the unique skills every Freelancer is able to use to aid allies or hurt their enemies. These abilities tend to have some kind of cost attached to them, whether it's through requiring an action, having a cooldown period before it can be used again or requiring a certain amount of [[Energy]] to use it.
