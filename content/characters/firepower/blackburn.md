@@ -55,7 +55,7 @@ title = "Blackburn"
 | Field Medic       | Heal allies hit for **10**.                                | 2        | Heal            |
 | Nova Nade         | Deal an additional **6** damage to the center location.    | 2        | Damage Up       |
 | Frag Out          | Reduces the cooldown of Proteus Grenade by **1**.          | 3        | Cooldown        |
-| Collateral Damage | Area of effect increased.                                  | 3        | Target Increase |
+| Collateral Damage | Area of effect increased **4x4**.                          | 3        | Target Increase |
 
 **Default Mod:** Nova Nade
 

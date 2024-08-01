@@ -30,13 +30,13 @@ title = "Tol-Ren"
 - **Target Range:** 3
 - **Area of Effect:** Cone
 
-| **Mod Name**      | **Description**                                                            | **Cost** | **Type**    |
-| ----------------- | -------------------------------------------------------------------------- | -------- | ----------- |
-| Furious Strike    | Hitting enemies the same turn you use **Ren's Fury** **Slows** the target. | 1        | Bad Status  |
-| Honed Blade       | Each slash hits for **30**. Overlap damage remains at **34**.              | 1        | Damage Up   |
-| Wandering Warrior | Gain **Haste** until end of turn.                                          | 2        | Good Status |
-| Razor Blade       | Gain **2** additional energy per enemy hit.                                | 2        | Good Status |
-| Cross Slash       | Deal an additional **4** overlap damage.                                   | 3        | Damage Up   |
+| **Mod Name**      | **Description**                                                                 | **Cost** | **Type**    |
+| ----------------- | ------------------------------------------------------------------------------- | -------- | ----------- |
+| Furious Strike    | Hitting enemies the same turn you use **Ren's Fury** also **Slows** the target. | 1        | Bad Status  |
+| Honed Blade       | Each slash hits for **30**. Overlap damage remains at **34**.                   | 1        | Damage Up   |
+| Wandering Warrior | Gain **Haste** until end of turn.                                               | 2        | Good Status |
+| Razor Blade       | Gain **2** additional energy per enemy hit.                                     | 2        | Good Status |
+| Cross Slash       | Deal an additional **4** overlap damage.                                        | 3        | Damage Up   |
 
 **Default Mod:** Wandering Warrior
 
@@ -111,7 +111,7 @@ title = "Tol-Ren"
 
 - **Phase:** Dash
 - **Energy Cost:** 100
-- **Description:** Dash to target location, marking the first enemy you travel through. During Blast Phase, the target takes **52** damage and is **knocked down**. If your target dashes out of the way of this attack, and you do not hit anyone else, you will recover **50** energy. Ignores cover.
+- **Description:** Dash to target location, marking the first enemy you travel through. During Blast Phase, the target takes **52** damage and is **Knocked Down**. If your target dashes out of the way of this attack, and you do not hit anyone else, you will recover **50** energy. Ignores cover.
 - **Free:** No
 - **Target Type:** Free aim
 - **Target Range:** 7
@@ -119,10 +119,10 @@ title = "Tol-Ren"
 
 | **Mod Name**     | **Description**                                                                                | **Cost** | **Type**        |
 | ---------------- | ---------------------------------------------------------------------------------------------- | -------- | --------------- |
-| Spirit Wrack     | The first enemy crossed over is made **weak** until end of turn.                               | 1        | Bad Status      |
+| Spirit Wrack     | The first enemy crossed over is made **Weak** until end of turn.                               | 1        | Bad Status      |
 | Momentum         | Can move after dashing, but become **Slowed** until end of turn.                               | 2        | Special         |
 | Vengeance Seeker | Gain an additional **2** range.                                                                | 2        | Range Up        |
-| Reaver           | All targets crossed over are **knocked down**. Only the first target hit takes damage.         | 3        | Target Increase |
+| Reaver           | All targets crossed over are **Knocked Down**. Only the first target hit takes damage.         | 3        | Target Increase |
 | Soul Splitter    | Deal additional damage equal to **15%** of the damage the target took before knockback occurs. | 3        | Damage Up       |
 
 **Default Mod:** Vengeance Seeker

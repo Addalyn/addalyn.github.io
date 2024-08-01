@@ -8,7 +8,7 @@ title = "Khita"
 | **Role**          | Support     |
 | ----------------- | ----------- |
 | **Affiliation**   | Helio Corps |
-| **Actual Health** | 130         |
+| **Actual Health** | 120         |
 
 | **Stat**   | **Value**                                                 |
 | ---------- | --------------------------------------------------------- |
@@ -24,16 +24,16 @@ title = "Khita"
 - **Phase:** Blast
 - **Cooldown:** None
 - **Free:** No
-- **Description:** Loose a curving arrow that deals 28 direct damage. Click once to start aiming, then a second time to finish.
-- **Energy Gained:** Gain 12 energy on hit.
+- **Description:** Loose a curving arrow that deals **29** direct damage. Click once to start aiming, then a second time to finish.
+- **Energy Gained:** Gain **12** energy on hit.
 - **Target Type:** Free aim
 
-| **Mod Name**     | **Description**                                                      | **Cost** | **Type**   |
-| ---------------- | -------------------------------------------------------------------- | -------- | ---------- |
-| To The Knee      | Triggering Take Aim! also slows the target hit.                      | 1        | Bad Status |
-| Leaf In The Wind | Increases the maximum curve angle by 20 degrees.                     | 2        | Range Up   |
-| Stocked Quiver   | Gain 3 additional energy on hit.                                     | 2        | Energy     |
-| Fly True         | Arrow pierces the first target, dealing 8 damage to the next target. | 3        | Special    |
+| **Mod Name**     | **Description**                                                           | **Cost** | **Type**        |
+| ---------------- | ------------------------------------------------------------------------- | -------- | --------------- |
+| To The Knee      | Triggering **Take Aim!** also **Slows** the target hit.                   | 1        | Bad Status      |
+| Leaf In The Wind | Increases the maximum curve angle by **20** degrees.                      | 2        | Range Up        |
+| Stocked Quiver   | Gain **3** additional energy on hit.                                      | 2        | Energy          |
+| Fly True         | Arrow pierces the first target, dealing **11** damage to the next target. | 3        | Target Increase |
 
 **Default Mod:** Leaf In The Wind
 
@@ -44,16 +44,16 @@ title = "Khita"
 - **Phase:** Prep
 - **Cooldown:** 3
 - **Free:** No
-- **Description:** Create an energy fluctuation that grants 30 shields to allies and weakens enemies until end of turn.
-- **Energy Gained:** Gain 6 energy for each enemy hit and 4 per ally hit.
+- **Description:** Create an energy fluctuation that grants **30** shields to allies and **Weakens** enemies until end of turn.
+- **Energy Gained:** Gain **6** energy for each enemy hit and **4** per ally or self hit.
 - **Target Type:** Grid
 
-| **Mod Name**       | **Description**                                           | **Cost** | **Type**   |
-| ------------------ | --------------------------------------------------------- | -------- | ---------- |
-| Resonant Capacitor | Gain 2 more energy per target hit.                        | 1        | Energy     |
-| Focused Burst      | Shield is strengthened by 6 if only one ally is shielded. | 2        | Shield Up  |
-| Jelly Legs         | Enemies hit are also slowed until end of turn.            | 2        | Bad Status |
-| Sonic Resonance    | Up to 10 remaining shields can persist for 1 extra turn.  | 3        | Shield Up  |
+| **Mod Name**       | **Description**                                                       | **Cost** | **Type**   |
+| ------------------ | --------------------------------------------------------------------- | -------- | ---------- |
+| Resonant Capacitor | Gain **2** more energy per target hit.                                | 1        | Energy     |
+| Focused Burst      | Shield is strengthened by **6** if only one ally or self is shielded. | 2        | Shield Up  |
+| Jelly Legs         | Enemies hit are also **Slowed** until end of turn.                    | 2        | Bad Status |
+| Sonic Resonance    | Up to **10** remaining shields can persist for **1** extra turn.      | 3        | Shield Up  |
 
 **Default Mod:** Jelly Legs
 
@@ -64,19 +64,20 @@ title = "Khita"
 - **Phase:** Prep
 - **Cooldown:** 4
 - **Free:** Yes
-- **Description:** Mark an enemy until end of next turn. The first time an ally deals direct damage to the marked enemy, the ally is healed for 25.
-- **Energy Gained:** Gain 4 energy on use and 2 energy each time the target is hit.
+- **Description:** Mark an enemy until end of next turn. The first time yourself or an ally deals direct damage to the marked enemy, he is healed for **20**.
+- **Energy Gained:** Gain **4** energy on use and **2** energy each time the target is hit.
 - **Target Type:** Grid
 
-| **Mod Name**    | **Description**                                                   | **Cost** | **Type**    |
-| --------------- | ----------------------------------------------------------------- | -------- | ----------- |
-| Sharpshooter    | Your attack that triggers Take Aim! deals 4 additional damage.    | 1        | Damage Up   |
-| Moment of Glory | Allies below 50% health receive 5 additional healing.             | 2        | Heal        |
-| RFID Chip       | Targeted enemy is revealed until the end of next decision mode.   | 2        | Bad Status  |
-| Aim Assist      | Can be targeted through walls.                                    | 2        | Effect Size |
-| Aim Again!      | Allies are healed for 5 the second time they hit a marked target. | 3        | Heal        |
+| **Mod Name**    | **Description**                                                        | **Cost** | **Type**    |
+| --------------- | ---------------------------------------------------------------------- | -------- | ----------- |
+| Sharpshooter    | Your attack that triggers **Take Aim!** deals **4** additional damage. | 1        | Damage Up   |
+| Moment of Glory | Allies below **50%** health receive **5** additional healing.          | 2        | Heal Up     |
+| RFID Chip       | Targeted enemy is **Revealed** until the end of next decision mode.    | 2        | Bad Status  |
+| Aim Assist      | Can be targeted through walls.                                         | 2        | Effect Size |
+| Aim Again!      | Allies are healed for **5** the second time they hit a marked target.  | 3        | Heal Up     |
+| Recharging Mark | Cooldown is reset if the healing is not triggered at all.              | 3        | Cooldown    |
 
-**Default Mod:** Sharpshooter
+**Default Mod:** Aim Assist
 
 ---
 
@@ -85,19 +86,19 @@ title = "Khita"
 - **Phase:** Dash
 - **Cooldown:** 5
 - **Free:** No
-- **Description:** Dash to a location then fire an arrow in the opposite direction which deals 20 direct damage and slows until end of turn.
-- **Energy Gained:** Gain 8 energy per enemy hit.
+- **Description:** Dash to a location then fire an arrow in the opposite direction which deals **20** direct damage and **Slows** until end of turn.
+- **Energy Gained:** Gain **8** energy per enemy hit.
 - **Target Type:** Grid
 
-| **Mod Name**      | **Description**                                                                    | **Cost** | **Type**    |
-| ----------------- | ---------------------------------------------------------------------------------- | -------- | ----------- |
-| Ready, Aim, Fire! | Triggering Take Aim! with Vaulting Shot also roots the marked target for one turn. | 1        | Bad Status  |
-| Surge of Energy   | Gain 2 more energy per target hit.                                                 | 1        | Energy      |
-| Cover the Field   | Increase shot targeting angle by 40 degrees.                                       | 2        | Effect Size |
-| Light-Footed      | Gain Haste until end of next turn.                                                 | 2        | Good Status |
-| Survivalist       | Increases the damage done by 6                                                     | 3        | Damage Up   |
+| **Mod Name**      | **Description**                                                                                | **Cost** | **Type**    |
+| ----------------- | ---------------------------------------------------------------------------------------------- | -------- | ----------- |
+| Ready, Aim, Fire! | Triggering **Take Aim!** with **Vaulting Shot** also **Roots** the marked target for one turn. | 1        | Bad Status  |
+| Surge of Energy   | Gain **2** more energy per target hit.                                                         | 1        | Energy      |
+| Cover the Field   | Increase shot targeting angle by **40** degrees.                                               | 2        | Effect Size |
+| Light-Footed      | Gain **Haste** until end of next turn.                                                         | 2        | Good Status |
+| Survivalist       | Increases the damage done by **6**.                                                            | 3        | Damage Up   |
 
-**Default Mod:** Light-Footed
+**Default Mod:** Cover the Field
 
 ---
 
@@ -105,18 +106,19 @@ title = "Khita"
 
 - **Phase:** Blast
 - **Energy Cost:** 100
-- **Description:** Rain arrows down in a line, dealing 28 direct damage to enemies and rooting them. Choose two points within range to create the line of effect. Does not require line of sight. Ignores cover.
+- **Description:** Rain arrows down in a line, dealing **30** direct damage to enemies and **Rooting** them. Choose two points within range to create the line of effect. Does not require line of sight. Ignores cover.
 - **Target Type:** Grid
 
-| **Mod Name**     | **Description**                                                                    | **Cost** | **Type**    |
-| ---------------- | ---------------------------------------------------------------------------------- | -------- | ----------- |
-| Cloudy Skies     | Gain **energized** until end of next turn.                                         | 1        | Energy      |
-| Heavy Rain       | Deals an additional 5 damage to enemies below 50% health.                          | 1        | Damage Up   |
-| Crippling Blow   | Enemies hit are Slowed next turn.                                                  | 2        | Bad Status  |
-| Pins and Needles | Reduce cooldown of Take Aim! by 1.                                                 | 2        | Cooldown    |
-| Deluge of Arrows | Adds an additional segment to the arrow path. The max length of each segment is 3. | 3        | Effect Size |
+| **Mod Name**     | **Description**                                                                           | **Cost** | **Type**    |
+| ---------------- | ----------------------------------------------------------------------------------------- | -------- | ----------- |
+| Cloudy Skies     | Gain **Energized** until end of next turn.                                                | 1        | Energy      |
+| Heavy Rain       | Deals an additional **5** damage to enemies below **50%** health.                         | 1        | Damage Up   |
+| Crippling Blow   | Enemies hit are **Slowed** next turn.                                                     | 2        | Bad Status  |
+| Pins and Needles | Reduce cooldown of **Take Aim!** by **1**.                                                | 2        | Cooldown    |
+| Deluge of Arrows | Adds **1** additional segment to the arrow path. The max length of each segment is **3**. | 3        | Effect Size |
+| Umbrella Weather | If only one target is hit they are **Scrambled**.                                         | 3        | Bad Status  |
 
-**Default Mod:** Heavy Rain
+**Default Mod:** Crippling Blow
 
 ## Dossier
 

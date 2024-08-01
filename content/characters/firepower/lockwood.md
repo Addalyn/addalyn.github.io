@@ -71,7 +71,7 @@ title = "Lockwood"
 | Consolation Prize  | If nobody trips the trapwire, the cooldown is reset.                             | 1        | Cooldown    |
 | Throwing Arm       | Can be targeted through walls.                                                   | 2        | Special     |
 | Trapwall           | Increase the size of trapwire, but reduces damage by **5**.                      | 3        | Effect Size |
-| Insta-Trap         | Now a **free action**. Reduces damage by **15** and increases cooldown by **1**. | 3        | Special     |
+| Insta-Trap         | Now a **Free Action**. Reduces damage by **15** and increases cooldown by **1**. | 3        | Special     |
 | Extra Battery Life | Duration of the **Trapwire** is increased by **2**.                              | 2        | Special     |
 
 **Default Mod:** Throwing Arm
