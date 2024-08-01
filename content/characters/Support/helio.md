@@ -24,16 +24,17 @@ title = "Helio"
 - **Phase:** Blast
 - **Cooldown:** None
 - **Free:** No
-- **Description:** Strike the first target for 22 direct damage, then chains up to 3 additional targets for 12 direct damage.
-- **Energy Gained:** Gain 6 energy per enemy hit.
+- **Description:** Strike the first target for **22** direct damage, then chains up to **3** additional targets for **12** direct damage.
+- **Energy Gained:** Gain **6** energy per enemy hit.
 - **Target Type:** Free aim
+- **Target Range:** 5
 
-| **Mod Name**      | **Description**                                                              | **Cost** | **Type**  |
-| ----------------- | ---------------------------------------------------------------------------- | -------- | --------- |
-| Magnetized        | Chains can target invisible enemies.                                         | 1        | Damage Up |
-| Defensive Conduit | Each target hit grants 2 shielding on the recipient of Black Hole Generator. | 2        | Energy    |
-| Sledge            | Increase the damage of all hits by 3.                                        | 2        | Damage Up |
-| Reverberation     | Increase distance between chains by 1.                                       | 3        | Range Up  |
+| **Mod Name**      | **Description**                                                                                                                        | **Cost** | **Type**  |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------- |
+| Magnetized        | Chains can target invisible enemies.                                                                                                   | 1        | Range Up  |
+| Defensive Conduit | Each target hit grants **2** shielding on the recipient of **Black Hole Generator**. Stacks with multiple hits, up to a max of **10**. | 2        | Shield    |
+| Sledge            | Increase the damage of all hits by **3**.                                                                                              | 2        | Damage Up |
+| Reverberation     | Increase distance between chains by **1**.                                                                                             | 3        | Range Up  |
 
 **Default Mod:** Defensive Conduit
 
@@ -44,16 +45,18 @@ title = "Helio"
 - **Phase:** Prep
 - **Cooldown:** 3
 - **Free:** Yes
-- **Description:** Target ally gains 30 shields until end of turn. Has 2 charges.
-- **Energy Gained:** Gain 8 energy.
-- **Target Type:** Ally
+- **Description:** Target ally gains **30** shields until end of turn. Has **2** charges.
+- **Energy Gained:** Gain **8** energy.
+- **Target Type:** Self/Ally
+- **Target Range:** 8
 
-| **Mod Name** | **Description**                              | **Cost** | **Type**    |
-| ------------ | -------------------------------------------- | -------- | ----------- |
-| Nano Rush    | Shielded target gains Haste next turn.       | 1        | Good Status |
-| Omni-Barrier | Can be targeted through walls.               | 2        | Shield Up   |
-| Fortress     | If used on an ally also shields self for 14. | 3        | Shield Up   |
-| Power Share  | Shielded target gains Might for the turn.    | 3        | Good Status |
+| **Mod Name**   | **Description**                                                  | **Cost** | **Type**    |
+| -------------- | ---------------------------------------------------------------- | -------- | ----------- |
+| Nano Rush      | Shielded target gains **Haste** next turn.                       | 1        | Good Status |
+| Omni-Barrier   | Can be targeted through walls.                                   | 2        | Range Up    |
+| Fortress       | If used on an ally also shields self for **14**.                 | 3        | Shield Up   |
+| Power Share    | Shielded target gains **Might** for the turn.                    | 3        | Good Status |
+| Power Transfer | No longer generates energy. Shielded target gains **10** energy. | 3        | Energy      |
 
 **Default Mod:** Omni-Barrier
 
@@ -64,18 +67,20 @@ title = "Helio"
 - **Phase:** Prep
 - **Cooldown:** 4
 - **Free:** No
-- **Description:** Fabricate a miniature black hole on an ally that will detonate next turn, pulling enemies over the black hole and dealing 10 indirect damage to each. Ignores cover.
-- **Energy Gained:** Gain 8 energy on use and 4 energy per enemy hit.
-- **Target Type:** Ally
+- **Description:** Fabricate a miniature black hole on an ally that will detonate next turn, **Pulling** enemies over the black hole and dealing **10** indirect damage to each. Ignores cover.
+- **Energy Gained:** Gain **8** energy on use and **4** energy per enemy hit.
+- **Target Type:** Self/Ally
+- **Target Range:** 8
+- **Area of Effect:** Damage radius 3
 
-| **Mod Name**  | **Description**                           | **Cost** | **Type**    |
-| ------------- | ----------------------------------------- | -------- | ----------- |
-| Galvanic Core | Gain 4 additional energy on use.          | 1        | Damage Up   |
-| Event Horizon | Target gains 10 shields.                  | 2        | Heal        |
-| Supermassive  | Target gains Unstoppable until next turn. | 2        | Good Status |
-| Gravity Warp  | Enemies hit are slowed until next turn.   | 3        | Bad Status  |
+| **Mod Name**  | **Description**                               | **Cost** | **Type**    |
+| ------------- | --------------------------------------------- | -------- | ----------- |
+| Galvanic Core | Gain **4** additional energy on use.          | 1        | Damage Up   |
+| Event Horizon | Target gains **10** shields.                  | 2        | Heal        |
+| Supermassive  | Target gains **Unstoppable** until next turn. | 2        | Good Status |
+| Gravity Warp  | Enemies hit are **Slowed** until next turn.   | 3        | Bad Status  |
 
-**Default Mod:** Supermassive
+**Default Mod:** Event Horizon
 
 ---
 
@@ -84,16 +89,18 @@ title = "Helio"
 - **Phase:** Prep
 - **Cooldown:** 4
 - **Free:** No
-- **Description:** Place a disruptive wall, dealing 25 indirect damage to enemies who move through it, and weakening them next turn.
-- **Energy Gained:** Gain 8 energy per enemy hit.
+- **Description:** Place a disruptive wall, dealing **23** indirect damage to enemies who move through it, and **Weakening** them until next turn.
+- **Energy Gained:** Gain **8** energy on use and **4** energy per enemy hit.
 - **Target Type:** Grid
+- **Target Range:** 7
 
-| **Mod Name**      | **Description**                              | **Cost** | **Type**   |
-| ----------------- | -------------------------------------------- | -------- | ---------- |
-| Completed Circuit | Gain 2 additional energy per enemy hit.      | 1        | Energy     |
-| Electric Fence    | Enemies passing through the wall are slowed. | 2        | Bad Status |
-| Master Craftsman  | Increase range by 1.                         | 2        | Range Up   |
-| Enhanced Matrix   | Decrease cooldown by 1.                      | 3        | Damage Up  |
+| **Mod Name**      | **Description**                                  | **Cost** | **Type**   |
+| ----------------- | ------------------------------------------------ | -------- | ---------- |
+| Completed Circuit | Gain **2** additional energy per enemy hit.      | 1        | Energy     |
+| Electric Fence    | Enemies passing through the wall are **Slowed**. | 2        | Bad Status |
+| Master Craftsman  | Increase range by **1**.                         | 2        | Range Up   |
+| Enhanced Matrix   | Decrease cooldown by **1**.                      | 3        | Damage Up  |
+| Firewall          | Blocks vision for enemies.                       | 3        | Damage Up  |
 
 **Default Mod:** Master Craftsman
 
@@ -104,15 +111,19 @@ title = "Helio"
 - **Phase:** Prep
 - **Energy Cost:** 100
 - **Free:** No
-- **Description:** Target ally gains 60 shields. During the Blast Phase, a vortex of energy expands outwards, dealing 26 indirect damage to nearby enemies. Lasts 2 turns.
-- **Target Type:** Ally
+- **Description:** Target ally gains **60** shields. During the Blast Phase, a vortex of energy expands outwards, dealing **26** indirect damage to nearby enemies. Lasts **2** turns.
+- **Target Type:** Self/Ally
+- **Target Range:** 8
+- **Area of Effect:** Damage radius 1.5
 
-| **Mod Name**       | **Description**                                                | **Cost** | **Type**    |
-| ------------------ | -------------------------------------------------------------- | -------- | ----------- |
-| Transference       | Battleforged can be targeted through walls.                    | 1        | Bad Status  |
-| Adaptive Shielding | The targeted ally gains 20 additional shields next turn.       | 2        | Shield Up   |
-| Ironclad           | Lasts an additional turn. Gain Unstoppable for the first turn. | 3        | Shield Up   |
-| Weapon of War      | Target gains Might for the duration.                           | 3        | Good Status |
+
+
+| **Mod Name**       | **Description**                                                                           | **Cost** | **Type**    |
+| ------------------ | ----------------------------------------------------------------------------------------- | -------- | ----------- |
+| Transference       | Battleforged can be targeted through walls.                                               | 1        | Bad Status  |
+| Adaptive Shielding | The targeted ally gains **20** additional shields next turn.                              | 2        | Shield Up   |
+| Ironclad           | Lasts **1** additional turn. Target and yourself gain **Unstoppable** for the first turn. | 3        | Shield Up   |
+| Weapon of War      | Target gains **Might** for the duration.                                                  | 3        | Good Status |
 
 **Default Mod:** Adaptive Shielding
 
