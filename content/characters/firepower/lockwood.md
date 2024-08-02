@@ -27,7 +27,7 @@ title = "Lockwood"
 - **Description:** Fire a trick shot dealing **33** damage to an enemy. This shot can bounce off walls.
 - **Energy Gained:** Gain **12** energy if you hit an enemy.
 - **Target Type:** Free aim
-- **Target Range:** 7/9(Bouncing)
+- **Target Range:** 7, +2 after bouncing
 
 | **Mod Name**  | **Description**                                                                    | **Cost** | **Type**        |
 | ------------- | ---------------------------------------------------------------------------------- | -------- | --------------- |
