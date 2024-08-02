@@ -34,7 +34,7 @@ title = "Blackburn"
 | Elite Commando  | Firing in single target mode increases damage of the next cone usage of Equalizer by **4** damage and vice versa. | 3        | Damage Up |
 | Breach          | Deal an additional **2** damage while in cover next to a wall.                                                    | 2        | Damage Up |
 | Prediction Shot | Deal an additional **6** damage to enemies that have used a dash ability this turn.                               | 2        | Damage Up |
-| Close Quarters  | Deal an additional **6** damage to enemies within **2** spaces.                        .                          | 2        | Damage Up |
+| Close Quarters  | Deal an additional **6** damage to enemies within **2** spaces.                                                   | 2        | Damage Up |
 | Capacitor Clip  | Gain an additional **3** energy for single target and **1** energy per cone target hit.                           | 1        | Energy    |
 
 **Default Mod:** Breach
@@ -55,7 +55,7 @@ title = "Blackburn"
 | Field Medic       | Heal allies hit for **10**.                                | 2        | Heal            |
 | Nova Nade         | Deal an additional **6** damage to the center location.    | 2        | Damage Up       |
 | Frag Out          | Reduces the cooldown of Proteus Grenade by **1**.          | 3        | Cooldown        |
-| Collateral Damage | Area of effect increased **4x4**.                          | 3        | Target Increase |
+| Collateral Damage | Area of effect increased to **4x4**.                       | 3        | Target Increase |
 
 **Default Mod:** Nova Nade
 

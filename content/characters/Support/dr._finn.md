@@ -77,7 +77,7 @@ title = "Dr. Finn"
 | **Mod Name**      | **Description**                                                                   | **Cost** | **Type**    |
 | ----------------- | --------------------------------------------------------------------------------- | -------- | ----------- |
 | Master Angler     | Deals an additional **6** damage when it jumps.                                   | 1        | Damage Up   |
-| Spout of Sight    | Can hit targets that are invisible or camouflaged.                                | 2        | Special     |
+| Spout of Sight    | Can hit targets that are **Invisible** or **Camouflaged**.                                | 2        | Special     |
 | That Magic Eeling | Increase the range of the jump by **1**.                                          | 2        | Range Up    |
 | That's a Moray    | The eels can now target or jump to allies, granting them **Energized** next turn. | 3        | Good Status |
 
