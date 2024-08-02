@@ -115,7 +115,7 @@ title = "Nix"
 | Phosphorescent Residue | Enemies hit are **Revealed** until the end of the next turn.           | 1        | Bad Status  |
 | Focused Beam           | Increases range by **2**.                                              | 2        | Range Up    |
 | Extraction Plan        | On use, gain **Invisibility** until the end of the next Decision Mode. | 3        | Good Status |
-| Reaper Shells          | Deals an additional **10** damage to enemies below 50% health.         | 3        | Damage Up   |
+| Reaper Shells          | Deals an additional **10** damage to enemies below **50%** health.     | 3        | Damage Up   |
 | Path Of Destruction    | Increases the width of the shot by **100%**.                           | 2        | Range Up    |
 
 **Default Mod:** Focused Beam
