@@ -48,7 +48,7 @@ title = "Tol-Ren"
 - **Cooldown:** 3
 - **Free:** Yes
 - **Description:** Gain **20** shields. If you take direct damage this turn, your blade will become empowered next turn, adding **10** damage to your next attack.
-- **Energy Gained:** Gain **6** energy on cast, and **3** energy each time you take damage this turn.
+- **Energy Gained:** Gain **6** energy on cast, and **3** energy each time you take direct damage this turn.
 - **Target Type:** Self
 
 | **Mod Name**        | **Description**                                                                  | **Cost** | **Type**    |
