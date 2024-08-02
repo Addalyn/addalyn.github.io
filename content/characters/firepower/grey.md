@@ -55,7 +55,7 @@ title = "Grey"
 | -------------------- | ------------------------------------------------------------ | -------- | ----------- |
 | Eye in the Sky       | Increase the radius of **Hawk Drone**'s vision by **1**.     | 1        | Effect Size |
 | Composite Materials  | Increases the maximum range of the drone targeting by **2**. | 2        | Range Up    |
-| Infrared Enhancement | Attacks invisible enemies.                                   | 2        | Special     |
+| Infrared Enhancement | Attacks **Invisible** and **Camouflaged** enemies.                                   | 2        | Special     |
 | Vicious              | Increases damage to **Tracked** targets by **4**.            | 3        | Damage Up   |
 
 **Default Mod:** Composite Materials
