@@ -31,7 +31,7 @@ title = "Helio"
 
 | **Mod Name**      | **Description**                                                                                                                        | **Cost** | **Type**  |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------- |
-| Magnetized        | Chains can target invisible enemies.                                                                                                   | 1        | Range Up  |
+| Magnetized        | Chains can target **Invisible** or **Camouflaged** enemies.                                                                                                   | 1        | Range Up  |
 | Defensive Conduit | Each target hit grants **2** shielding on the recipient of **Black Hole Generator**. Stacks with multiple hits, up to a max of **10**. | 2        | Shield    |
 | Sledge            | Increase the damage of all hits by **3**.                                                                                              | 2        | Damage Up |
 | Reverberation     | Increase distance between chains by **1**.                                                                                             | 3        | Range Up  |
