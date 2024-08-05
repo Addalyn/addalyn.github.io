@@ -48,9 +48,9 @@ title = "Lex"
 - **Cooldown:** 4
 - **Free:** Yes
 - **Description:** Imbue yourself, an ally, or an enemy with an explosive charge until end of turn. This charge detonates during Blast Phase dealing **10** indirect damage to nearby enemies, but not the target.
-- **Energy Gained:** Gain 4 energy per enemy hit.
-- **Target Type:** Grid
-- **Target Range:** 2
+- **Energy Gained:** Gain **4** energy per enemy hit.
+- **Target Type:** Self/Ally/Enemy
+- **Area of Effect:** radius of 1.5
 
 | **Mod Name**     | **Description**                                                                                               | **Cost** | **Type**   |
 | ---------------- | ------------------------------------------------------------------------------------------------------------- | -------- | ---------- |
@@ -70,10 +70,10 @@ title = "Lex"
 - **Cooldown:** 3
 - **Free:** No
 - **Description:** Launch yourself toward a target space, dealing **23** direct damage to enemies around the destination. This dash will stop short at the first enemy in your path. Spaces covered by this template are set on fire until the end of the turn, dealing **5** indirect damage to enemies that touch them. Damage from this ability ignores cover.
-- **Energy Gained:** Gain 5 energy per enemy hit. Ground fire hits do not grant energy.
-- **Target Type:** Free aim
-- **Target Range:** 7
-- **Area of Effect:** Cone
+- **Energy Gained:** Gain **5** energy per enemy hit. Ground fire hits do not grant energy.
+- **Target Type:** Grid
+- **Target Range:** 4
+- **Area of Effect:** damage radius of 1.5
 
 | **Mod Name**   | **Description**                                                            | **Cost** | **Type**    |
 | -------------- | -------------------------------------------------------------------------- | -------- | ----------- |
