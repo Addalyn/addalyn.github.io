@@ -24,19 +24,19 @@ title = "Phaedra"
 - **Phase:** Blast
 - **Cooldown:** None
 - **Free:** No
-- **Description:** Deal 28 damage to nearby enemies and create a 12 damage shockwave that goes through walls and ignores cover.
-- **Energy Gained:** Gain 6 energy per enemy hit.
+- **Description:** Deal **28** damage to nearby enemies and create a **12** damage shockwave that goes through walls and ignores cover.
+- **Energy Gained:** Gain **6** energy per enemy hit.
 - **Target Type:** Free aim
-- **Target Range:** Melee
-- **Area of Effect:** Circle
+- **Target Range:** 4.5
+- **Area of Effect:** 1/4 circle of radius 4.5
 
-| **Mod Name** | **Description**                                                     | **Cost** | **Type**   |
-| ------------ | ------------------------------------------------------------------- | -------- | ---------- |
-| Tremors      | Targets not in line of sight take an additional 5 damage.           | 1        | Damage Up  |
-| Caustic Good | When destroying bugs created by Putrid Spray, the target is slowed. | 1        | Bad Status |
-| Wind Up      | Increase near damage by 2 and far by 1.                             | 2        | Damage Up  |
-| Predator     | Hitting Camo spaces will disable that region.                       | 2        | Special    |
-| Stagger      | Adjacent enemies are weakened next turn.                            | 3        | Bad Status |
+| **Mod Name** | **Description**                                                             | **Cost** | **Type**   |
+| ------------ | --------------------------------------------------------------------------- | -------- | ---------- |
+| Tremors      | Targets not in line of sight take an additional **5** damage.               | 1        | Damage Up  |
+| Caustic Good | When destroying bugs created by **Putrid Spray**, the target is **Slowed**. | 1        | Bad Status |
+| Wind Up      | Increase near damage by **2** and far by **1**.                             | 2        | Damage Up  |
+| Predator     | Hitting **Camo** spaces will disable that region.                           | 2        | Special    |
+| Stagger      | Adjacent enemies are **Weakened** next turn.                                | 3        | Bad Status |
 
 **Default Mod:** Wind Up
 
@@ -47,20 +47,19 @@ title = "Phaedra"
 - **Phase:** Prep
 - **Cooldown:** 4
 - **Free:** No
-- **Description:** Spray a swarm of bugs, slowing targets. If you hit any of these targets affected by bugs, the insects burst, dealing an additional 12 damage. Bugs last 2 turns.
-- **Energy Gained:** Gain 6 energy per enemy hit.
+- **Description:** Spray a swarm of bugs, **Slowing** targets. If you hit any of these targets affected by bugs, the insects burst, dealing an additional **12** damage. Bugs last **2** turns.
+- **Energy Gained:** Gain **6** energy per enemy hit.
 - **Target Type:** Free aim
-- **Target Range:** 7
-- **Area of Effect:** Line
+- **Target Range:** 4
 
-| **Mod Name**  | **Description**                                                                        | **Cost** | **Type**   |
-| ------------- | -------------------------------------------------------------------------------------- | -------- | ---------- |
-| Brood         | Reduce the cooldown by 1.                                                              | 1        | Cooldown   |
-| Lighting Bugs | If the bugs aren't triggered, the target is revealed until end of next decision phase. | 1        | Bad Status |
-| Big Bugs      | Increase the damage done by 3.                                                         | 2        | Damage Up  |
-| Juicy Morsels | Gain 5 energy when bugs burst.                                                         | 3        | Energy     |
+| **Mod Name**  | **Description**                                                                            | **Cost** | **Type**   |
+| ------------- | ------------------------------------------------------------------------------------------ | -------- | ---------- |
+| Brood         | Reduce the cooldown by **1**.                                                              | 1        | Cooldown   |
+| Lighting Bugs | If the bugs aren't triggered, the target is **Revealed** until end of next decision phase. | 1        | Bad Status |
+| Big Bugs      | Increase the damage done by **3**.                                                         | 2        | Damage Up  |
+| Juicy Morsels | Gain **5** energy when bugs burst.                                                         | 3        | Energy     |
 
-**Default Mod:** Lighting Bugs
+**Default Mod:** Big Bugs
 
 ---
 
@@ -69,17 +68,17 @@ title = "Phaedra"
 - **Phase:** Prep
 - **Cooldown:** 4
 - **Free:** Yes
-- **Description:** 100% of damage taken this turn is recovered over the next 2 turns, up to 80 health.
-- **Energy Gained:** Gain 5 energy on use.
+- **Description:** **100%** of damage taken this turn is recovered over the next **2** turns, up to **80** health.
+- **Energy Gained:** Gain **5** energy on use.
 - **Target Type:** Self
 
 | **Mod Name**   | **Description**                                                   | **Cost** | **Type**    |
 | -------------- | ----------------------------------------------------------------- | -------- | ----------- |
-| Taste of Blood | Recover 80% health the turn after but only gain health that turn. | 1        | Heal        |
-| Re-Generate    | Reduce the cooldown by 1 if you aren't hit this turn.             | 1        | Cooldown    |
-| Chitinous      | Gain 10 shields until end of turn.                                | 2        | Shield Up   |
-| Uncontrollable | Gain Unstoppable until end of turn.                               | 2        | Good Status |
-| Leech          | Each time you are hit this turn gain 4 energy.                    | 3        | Energy      |
+| Taste of Blood | Recover **80%** health the turn after but only gain health that turn. | 1        | Heal        |
+| Re-Generate    | Reduce the cooldown by **1** if you aren't hit this turn.             | 1        | Cooldown    |
+| Chitinous      | Gain **10** shields until end of turn.                                | 2        | Shield Up   |
+| Uncontrollable | Gain **Unstoppable** until end of turn.                               | 2        | Good Status |
+| Leech          | Each time you are hit by direct damage this turn gain **4** energy.   | 3        | Energy      |
 
 **Default Mod:** Chitinous
 
@@ -90,17 +89,18 @@ title = "Phaedra"
 - **Phase:** Dash
 - **Cooldown:** 4
 - **Free:** No
-- **Description:** Charge Forward! When you hit an enemy or travel your maximum range, create a tremor that causes 22 direct damage and slows all enemies hit. Can dash through walls.
-- **Energy Gained:** Gain 8 energy per enemy hit.
+- **Description:** Charge Forward! When you hit an enemy or travel your maximum range, create a tremor that causes **24** direct damage and **Slows** all enemies hit. Can dash through walls.
+- **Energy Gained:** Gain **8** energy per enemy hit.
 - **Target Type:** Line
-- **Target Range:** 8
+- **Target Range:** 6
+- **Area of Effect:** 1/2 circle of radius 2
 
-| **Mod Name**         | **Description**                                                     | **Cost** | **Type**   |
-| -------------------- | ------------------------------------------------------------------- | -------- | ---------- |
-| Paralyzing Parasites | When destroying bugs created by Putrid Spray, the target is rooted. | 1        | Bad Status |
-| Relentless           | If no enemies are hit, reduce the cooldown of Juggernaut by 1.      | 1        | Cooldown   |
-| Ravage               | When directly hitting a target, deal 6 additional damage to them.   | 2        | Damage Up  |
-| Battering Ram        | Bursting through walls deals an additional 8 damage to all targets. | 3        | Damage Up  |
+| **Mod Name**         | **Description**                                                             | **Cost** | **Type**   |
+| -------------------- | --------------------------------------------------------------------------- | -------- | ---------- |
+| Paralyzing Parasites | When destroying bugs created by **Putrid Spray**, the target is **Rooted**. | 1        | Bad Status |
+| Relentless           | If no enemies are hit, reduce the cooldown of **Juggernaut** by **1**.      | 1        | Cooldown   |
+| Ravage               | When directly hitting a target, deal **6** additional damage to them.       | 2        | Damage Up  |
+| Battering Ram        | Bursting through walls deals an additional **8** damage to all targets.     | 3        | Damage Up  |
 
 **Default Mod:** Ravage
 
@@ -111,18 +111,18 @@ title = "Phaedra"
 - **Phase:** Blast
 - **Energy Cost:** 100
 - **Free:** No
-- **Description:** Create a large earthquake around you dealing 30 direct damage. The edges of the lair prevent enemies from moving out of it until the end of next turn.
+- **Description:** Create a large earthquake around you dealing **32** direct damage. The edges of the lair prevent enemies from moving out of it until the end of next turn.
 - **Target Type:** Circle
-- **Target Range:** 7
-- **Area of Effect:** Circle
+- **Target Range:** 2
+- **Area of Effect:** 5x5
 
-| **Mod Name**    | **Description**                            | **Cost** | **Type**    |
-| --------------- | ------------------------------------------ | -------- | ----------- |
-| Ensnare         | Increase the targeting range by 1.         | 1        | Range Up    |
-| Hide and Seek   | Gain vision of the area inside the lair.   | 1        | Special     |
-| Earthen Barrier | Allies in the lair gain 15 shields.        | 2        | Shield Up   |
-| Aftershock      | Gain Might until the end of next turn.     | 2        | Good Status |
-| Broodmother     | Reduce the cooldown on Mending Swarm by 2. | 3        | Cooldown    |
+| **Mod Name**    | **Description**                                    | **Cost** | **Type**    |
+| --------------- | -------------------------------------------------- | -------- | ----------- |
+| Ensnare         | Increase the targeting range by **1**.             | 1        | Range Up    |
+| Hide and Seek   | Gain vision of the area inside the lair.           | 1        | Vision      |
+| Earthen Barrier | Heal self and allies in the lair for **10**.       | 2        | Heal        |
+| Aftershock      | Gain **Might** until the end of next turn.         | 2        | Good Status |
+| Broodmother     | Reduce the cooldown on **Mending Swarm** by **2**. | 3        | Cooldown    |
 
 **Default Mod:** Earthen Barrier
 
