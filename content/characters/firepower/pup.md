@@ -42,7 +42,7 @@ title = "PuP"
 
 - **Phase:** Dash
 - **Cooldown:** 2
-- **Description:** Charge the enemy, automatically chasing the target and dealing **35** direct damage. Ignores cover. Can jump to allies.
+- **Description:** Charge the enemy, automatically **Chasing** the target and dealing **35** direct damage. Ignores cover. Can jump to allies.
 - **Energy Gained:** Gain **12** energy if you hit your target.
 - **Target Type:** Enemy/Ally
 - **Target Range:** 7
@@ -61,7 +61,7 @@ title = "PuP"
 
 - **Phase:** Blast
 - **Cooldown:** 4
-- **Description:** Leashes an enemy, dealing **30** direct damage, **Revealing** them until the end of next Decision Mode, and forcing them to chase you during Move Phase.
+- **Description:** Leashes an enemy, dealing **30** direct damage, **Revealing** them until the end of next Decision Mode, and forcing them to **Chase** you during Move Phase.
 - **Energy Gained:** Gain **12** energy if you hit an enemy.
 - **Target Type:** Free Aim
 - **Target Range:** 5
