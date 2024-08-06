@@ -46,7 +46,7 @@ title = "Asana"
 - **Phase:** Dash
 - **Cooldown:** 4
 - **Free:** No
-- **Description:** Dash in a direction, doing **27** damage to the first enemy hit. If you hit an enemy, you will chase them. This dash can bounce off walls. Ignores cover.
+- **Description:** Dash in a direction, doing **27** damage to the first enemy hit. If you hit an enemy, you will **Chase** them. This dash can bounce off walls. Ignores cover.
 - **Energy Gained:** Gain **10** energy if you hit an enemy.
 - **Target Type:** Free aim
 - **Target Range:** 6, +3 after first bounce

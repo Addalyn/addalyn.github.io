@@ -115,7 +115,7 @@ title = "Isadora"
 - **Phase:** Prep
 - **Cooldown:** 3
 - **Free:** No
-- **Description:** Convert all of your energy into shields. Cannot exceed **100** shields. If **On Foot**, using this ability reconstitutes the **Forceball**.
+- **Description:** Convert all of your energy into shields. Cannot exceed **100** shields. If **On Foot**, using this ability reconstitutes the **Forceball**.  
   **Passive:** If your shields are depleted,this ability goes on a **3** turn cooldown and the **Forceball** shatters into 5 **Energy Crystals**. Collect these to gain **10** energy per **Crystal**. Remaining **Crystals** are removed upon **Suit Up** or death. 
                When the **Forceball** is destroyed you are considered **On Foot**, which changes the functionality of **Doom Ray** and **Scamper**, and disables **Reactive Chains** and **Going Ball-Istic**.
 			   You do not generate energy naturally and lose all energy upon death.

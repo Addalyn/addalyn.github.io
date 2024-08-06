@@ -24,7 +24,7 @@ title = "Orion"
 - **Phase:** Blast
 - **Cooldown:** None
 - **Free:** No
-- **Description:** Blast enemies with empyrean energy, dealing **22** direct damage to targets in the center and **16** direct damage to others. Ignores cover.
+- **Description:** Blast enemies with empyrean energy, dealing **22** direct damage to targets in the center and **16** direct damage to others. Ignores cover.  
   **Shards:** Increase outer explosion radius by **10%** per shard.
 - **Energy Gained:** None
 - **Target Type:** Free aim
@@ -47,7 +47,7 @@ title = "Orion"
 - **Phase:** Prep
 - **Cooldown:** 3
 - **Free:** No
-- **Description:** Grant yourself **15** shields, then redirect **75%** of the damage the ally takes this turn. **75%** of the damage taken from this ability converts directly into energy.
+- **Description:** Grant yourself **15** shields, then redirect **75%** of the damage the ally takes this turn. **75%** of the damage taken from this ability converts directly into energy.  
   **Shards:** You gain additional **3** shields per shard.
 - **Energy Gained:** None  
 - **Target Type:** Grid
@@ -92,8 +92,8 @@ title = "Orion"
 - **Phase:** Prep
 - **Cooldown:** 4
 - **Free:** No
-- **Description:** Heal your target for **10** health a turn for **2** turns. Heals himself for the first turn's amount if used on an ally.
-  **Shards:** Target gains an additional **2** health per turn per shard.
+- **Description:** Heal your target for **10** health a turn for **2** turns. Heals himself for the first turn's amount if used on an ally.  
+  **Shards:** Target gains an additional **2** health per turn per shard.  
 - **Energy Gained:** None
 - **Target Type:** Grid
 - **Target Range:** 8
@@ -114,7 +114,7 @@ title = "Orion"
 
 - **Phase:** Blast
 - **Energy Cost:** 100
-- **Description:** Consume all shards to gain **30** health and deal **30** direct damage in an area. Gain **Unstoppable** for the turn.
+- **Description:** Consume all shards to gain **30** health and deal **30** direct damage in an area. Gain **Unstoppable** for the turn.  
   **Passive:** Gain a shard for every **20** energy held. **Half** of the damage taken converts into energy. Lose **75%** of energy on death. **Energize** does not affect energy gained through taking damage.
 - **Free:** No
 - **Target Type:** Self
