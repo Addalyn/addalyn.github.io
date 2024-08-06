@@ -92,7 +92,7 @@ title = "Orion"
 - **Phase:** Prep
 - **Cooldown:** 4
 - **Free:** No
-- **Description:** Heal your target for **10** health a turn for **2** turns. Heals himself for the first turn's amount if used on an ally.
+- **Description:** Heal your target for **10** health a turn for **2** turns. Heals himself for the first turn's amount if used on an ally.  
   **Shards:** Target gains an additional **2** health per turn per shard.  
 - **Energy Gained:** None
 - **Target Type:** Grid
