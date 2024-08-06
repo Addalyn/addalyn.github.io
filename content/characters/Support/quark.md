@@ -95,7 +95,7 @@ title = "Quark"
 
 | **Mod Name**         | **Description**                                                     | **Cost** | **Type**    |
 | -------------------- | ------------------------------------------------------------------- | -------- | ----------- |
-| Attraction           | Automatically **Chase** the target hit.                                 | 1        | Special     |
+| Attraction           | Automatically **Chase** the target hit.                             | 1        | Special     |
 | Excited              | Any allies crossed over or hit are given **Energize** for the turn. | 2        | Good Status |
 | Orbit                | Increases range by **1**.                                           | 2        | Range Up    |
 | Quantum Entanglement | If you dash to an ally, they gain a shield for **15** for the turn. | 3        | Shield Up   |
