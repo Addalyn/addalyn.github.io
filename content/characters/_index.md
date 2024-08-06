@@ -18,6 +18,6 @@ Freelancers are the characters that players play as in Atlas Reactor. Each Freel
 
 ---
 
-{{% include "support/_index.md" %}}
+{{% include "Support/_index.md" %}}
 
 <br><br><br><br>
