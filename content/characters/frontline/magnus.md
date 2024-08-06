@@ -29,13 +29,14 @@ title = "Magnus"
 - **Target Type:** Free aim
 - **Target Range:** 1.5/2.5/3.5
 
-| **Mod Name**    | **Description**                                                            | **Cost** | **Type**    |
-| --------------- | -------------------------------------------------------------------------- | -------- | ----------- |
-| Bonecrusher     | Increase the damage in the second arc by **4** and the third arc by **6**. | 3        | Damage Up   |
-| Kiss the Ring   | Increase the inner arc damage by **6** if Power Drive is fully charged.    | 2        | Damage Up   |
-| Force Capacitor | Gain **Haste** until end of turn                    .                      | 2        | Good Status |
-| Power-Up Glove  | Gain **2** additional energy per enemy hit.                                | 1        | Energy      |
-| Shatter         | Enemies in the outer two arcs are **Slowed** until end of turn.            | 3        | Bad Status  |
+| **Mod Name**    | **Description**                                                                                  | **Cost** | **Type**    |
+| --------------- | ------------------------------------------------------------------------------------------------ | -------- | ----------- |
+| Bonecrusher     | Increase the damage in the second arc by **4** and the third arc by **6**.                       | 3        | Damage Up   |
+| Kiss the Ring   | Increase the inner arc damage by **6** if Power Drive is fully charged.                          | 2        | Damage Up   |
+| Force Capacitor | Gain **Haste** until end of turn.                                                                | 2        | Good Status |
+| Power-Up Glove  | Gain **2** additional energy per enemy hit.                                                      | 1        | Energy      |
+| Shatter         | Enemies in the outer two arcs are **Slowed** until end of turn.                                  | 3        | Bad Status  |
+| Clobbering Time | If only hitting enemies in the second or third arc, **Power Drive** only loses one arc of range. | 2        | Special     |
 
 **Default Mod:** Force Capacitor
 
