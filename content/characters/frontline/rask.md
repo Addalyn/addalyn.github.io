@@ -8,7 +8,7 @@ title = "Rask"
 | **Role**          | Frontline |
 | ----------------- | --------- |
 | **Affiliation**   | Evos      |
-| **Actual Health** | 200       |
+| **Actual Health** | 185       |
 
 | **Stat**   | **Value**                                                 |
 | ---------- | --------------------------------------------------------- |
@@ -24,18 +24,18 @@ title = "Rask"
 - **Phase:** Blast
 - **Cooldown:** None
 - **Free:** No
-- **Description:** Claw your enemies, doing 30 direct damage to those adjacent to you, and 25 direct damage to those farther away.
-- **Energy Gained:** Gain 8 energy per enemy hit.
+- **Description:** Claw your enemies, doing **28** direct damage to those adjacent to you, and **25** direct damage to those farther away.
+- **Energy Gained:** Gain **8** energy per enemy hit.
 - **Target Type:** Free aim
-- **Target Range:** 1
+- **Target Range:** 2.5
 - **Area of Effect:** Cone
 
-| **Mod Name**    | **Description**                                                                           | **Cost** | **Type**   |
-| --------------- | ----------------------------------------------------------------------------------------- | -------- | ---------- |
-| Primal Fury     | Generate an additional 3 energy on near targets and 1 energy on far targets.              | 1        | Damage Up  |
-| Crippling Slash | Adjacent enemies hit are slowed for the turn.                                             | 2        | Bad Status |
-| Shredding Steel | Cover damage reduction is halved.                                                         | 2        | Damage Up  |
-| Beastial        | Near enemies take an additional 1 damage and further enemies take an additional 3 damage. | 3        | Damage Up  |
+| **Mod Name**    | **Description**                                                                                   | **Cost** | **Type**   |
+| --------------- | ------------------------------------------------------------------------------------------------- | -------- | ---------- |
+| Primal Fury     | Generate an additional **3** energy on near targets and **1** energy on far targets.              | 1        | Energy     |
+| Crippling Slash | Adjacent enemies hit are **Slowed** for the turn.                                                 | 2        | Bad Status |
+| Shredding Steel | Cover damage reduction is halved.                                                                 | 2        | Damage Up  |
+| Beastial        | Near enemies take an additional **1** damage and further enemies take an additional **3** damage. | 3        | Damage Up  |
 
 **Default Mod:** Crippling Slash
 
@@ -46,18 +46,18 @@ title = "Rask"
 - **Phase:** Blast
 - **Cooldown:** 4
 - **Free:** No
-- **Description:** Knockback an enemy, dealing 25 direct damage. Move cursor in or out to adjust knockback distance.
-- **Energy Gained:** Gain 10 energy if you hit an enemy.
+- **Description:** **Knockback** an enemy, dealing **24** direct damage. Move cursor in or out to adjust **Knockback** distance.
+- **Energy Gained:** Gain **10** energy if you hit an enemy.
 - **Target Type:** Free aim
-- **Target Range:** 7
+- **Target Range:** 4.5
 - **Area of Effect:** Line
 
-| **Mod Name** | **Description**                                | **Cost** | **Type**        |
-| ------------ | ---------------------------------------------- | -------- | --------------- |
-| Power Ripple | Gain 6 additional energy if you hit an enemy.  | 1        | Energy          |
-| Fling        | Increases range by 1 and knockback range by 1. | 2        | Range Up        |
-| Aftershock   | Affects all targeted enemies.                  | 3        | Target Increase |
-| Ravage       | Deals an additional 10 damage.                 | 3        | Damage Up       |
+| **Mod Name** | **Description**                                        | **Cost** | **Type**        |
+| ------------ | ------------------------------------------------------ | -------- | --------------- |
+| Power Ripple | Gain **6** additional energy if you hit an enemy.      | 1        | Energy          |
+| Fling        | Increases range by **1** and knockback range by **1**. | 2        | Range Up        |
+| Aftershock   | Affects all targeted enemies.                          | 3        | Target Increase |
+| Ravage       | Deals an additional **10** damage.                     | 3        | Damage Up       |
 
 **Default Mod:** Fling
 
@@ -68,20 +68,19 @@ title = "Rask"
 - **Phase:** Dash
 - **Cooldown:** 4
 - **Free:** No
-- **Description:** Trample over enemies, dealing 25 direct damage.
-- **Energy Gained:** Gain 8 energy per enemy hit.
-- **Target Type:** Free aim
-- **Target Range:** 7
-- **Area of Effect:** Cone
+- **Description:** Trample over enemies, dealing **24** direct damage.
+- **Energy Gained:** Gain **8** energy per enemy hit.
+- **Target Type:** Grid
+- **Target Range:** 6
 
-| **Mod Name**      | **Description**                                | **Cost** | **Type**        |
-| ----------------- | ---------------------------------------------- | -------- | --------------- |
-| Mad Dash          | Increases damage at the landing location by 3. | 1        | Damage Up       |
-| Pounce            | Gain 4 additional Energy per target hit.       | 2        | Energy          |
-| Surge             | Increases range by 1.                          | 2        | Target Increase |
-| Trample Underfoot | Enemies hit are slowed for the turn.           | 3        | Bad Status      |
+| **Mod Name**      | **Description**                                                            | **Cost** | **Type**   |
+| ----------------- | -------------------------------------------------------------------------- | -------- | ---------- |
+| Mad Dash          | Increases damage at the landing location by **3**.                         | 1        | Damage Up  |
+| Pounce            | Gain **4** additional Energy per target hit.                               | 2        | Energy     |
+| Surge             | Increases range by **1**, reduces damage at the landing location by **3**. | 2        | Range Up   |
+| Trample Underfoot | Enemies hit are **Slowed** for the turn.                                   | 3        | Bad Status |
 
-**Default Mod:** Trample Underfoot
+**Default Mod:** Surge
 
 ---
 
@@ -90,16 +89,16 @@ title = "Rask"
 - **Phase:** Prep
 - **Cooldown:** 8
 - **Free:** Yes
-- **Description:** Gain 10 health per turn if over 60 health. Activate when at 65 or less health to gain 15 health per turn instead. Lasts 2 turns.
-- **Energy Gained:** Gain 5 energy.
+- **Description:** Gain **10** health per turn if over **65** health. Activate when at **65** or less health to gain **15** health per turn instead. Lasts **2** turns.
+- **Energy Gained:** Gain **5** energy.
 - **Target Type:** Self
 
-| **Mod Name**     | **Description**                                                                         | **Cost** | **Type**    |
-| ---------------- | --------------------------------------------------------------------------------------- | -------- | ----------- |
-| Unrelenting      | Gain Unstoppable for the turn.                                                          | 1        | Good Status |
-| Pain Tolerance   | Increases the threshold to 90 health.                                                   | 2        | Special     |
-| Quick Mend       | Gain all health over one turn, 20 health if above the threshold, or 30 health if below. | 2        | Special     |
-| Shielding Factor | Gain 15 shields on use.                                                                 | 3        | Shield Up   |
+| **Mod Name**     | **Description**                                                                                 | **Cost** | **Type**    |
+| ---------------- | ----------------------------------------------------------------------------------------------- | -------- | ----------- |
+| Unrelenting      | Gain **Unstoppable** for the turn.                                                              | 1        | Good Status |
+| Pain Tolerance   | Increases the threshold to **90** health.                                                       | 2        | Special     |
+| Quick Mend       | Gain all health over one turn, **20** health if above the threshold, or **30** health if below. | 2        | Special     |
+| Shielding Factor | Gain **15** shields on use.                                                                     | 3        | Shield      |
 
 **Default Mod:** Pain Tolerance
 
@@ -108,20 +107,21 @@ title = "Rask"
 ### Ability 5: Uncontrollable Fury
 
 - **Phase:** Blast
-- **Energy Cost:** Activation Cost: 100 energy
-- **Description:** Automatically activates at full energy, resetting all cooldowns and creating a zone of plasma that deals 20 indirect damage and lasts for 2 turns.  
-  **Passive:** Gain energy when damaged.
+- **Energy Cost:** 100 energy
+- **Description:** Automatically activates at full energy, resetting all cooldowns and creating a zone of plasma that deals **20** indirect damage and lasts for **2** turns.  
+  **Passive:** **20%** of the damage taken converts into energy.
 - **Free:** Yes
-- **Target Type:** Area of Effect
-- **Target Range:** 7
-- **Area of Effect:** Zone
+- **Target Type:** Self
+- **Target Range:** 1.5
+- **Area of Effect:** Radius of 1.5
 
-| **Mod Name**      | **Description**                                      | **Cost** | **Type**    |
-| ----------------- | ---------------------------------------------------- | -------- | ----------- |
-| Rejuvenating Rage | Gain 10 health.                                      | 1        | Shield Up   |
-| Controllable Fury | No longer triggers automatically.                    | 2        | Special     |
-| Driving Rage      | Grants Unstoppable and Haste until end of next turn. | 2        | Good Status |
-| Fueled by Rage    | Grants Might for the next 2 turns.                   | 3        | Good Status |
+| **Mod Name**      | **Description**                                              | **Cost** | **Type**    |
+| ----------------- | ------------------------------------------------------------ | -------- | ----------- |
+| Rejuvenating Rage | Gain **10** health.                                          | 1        | Heal        |
+| Controllable Fury | No longer triggers automatically.                            | 2        | Special     |
+| Driving Rage      | Grants **Unstoppable** and **Haste** until end of next turn. | 2        | Good Status |
+| Fueled by Rage    | Grants **Might** for the next **2** turns.                   | 3        | Good Status |
+| Lingering Plasma  | Plasma persists **1** additional turn.                       | 2        | Duration    |
 
 **Default Mod:** Driving Rage
 
