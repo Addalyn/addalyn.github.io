@@ -81,7 +81,7 @@ title = "Kaigin"
 | Elusive          | Gain **Haste** for the turn.                                                                                 | **2**    | Good Status |
 | Deathmark        | Deal **4** additional damage when hitting a **Void Marked** target.                                          | **3**    | Damage Up   |
 
-**Default Mod:** Elusive
+**Default Mod:** Crippling Stab
 
 ---
 
